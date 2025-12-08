@@ -1,0 +1,39 @@
+[0.240s] Invoking command in '/home/creampi/ros2_ws/build/sensehat_cpp': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover /usr/bin/cmake /home/creampi/ros2_ws/src/sensehat_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/sensehat_cpp
+[1.121s] -- The C compiler identification is GNU 11.4.0
+[2.239s] -- The CXX compiler identification is GNU 11.4.0
+[2.457s] -- Detecting C compiler ABI info
+[3.766s] -- Detecting C compiler ABI info - done
+[3.872s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.882s] -- Detecting C compile features
+[3.898s] -- Detecting C compile features - done
+[3.950s] -- Detecting CXX compiler ABI info
+[5.282s] -- Detecting CXX compiler ABI info - done
+[5.389s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.397s] -- Detecting CXX compile features
+[5.409s] -- Detecting CXX compile features - done
+[5.516s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.585s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[11.032s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[12.248s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[12.852s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[12.936s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[13.054s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[13.178s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[13.352s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[13.876s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[13.923s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[15.325s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[16.325s] -- Found FastRTPS: /opt/ros/humble/include  
+[17.703s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[18.238s] -- Looking for pthread.h
+[20.296s] -- Looking for pthread.h - found
+[20.303s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[21.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[21.691s] -- Found Threads: TRUE  
+[23.239s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[25.830s] -- Configuring done
+[26.252s] -- Generating done
+[26.320s] -- Build files have been written to: /home/creampi/ros2_ws/build/sensehat_cpp
+[30.659s] Invoked command in '/home/creampi/ros2_ws/build/sensehat_cpp' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover /usr/bin/cmake /home/creampi/ros2_ws/src/sensehat_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/sensehat_cpp
+[30.662s] Invoking command in '/home/creampi/ros2_ws/build/sensehat_cpp': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/sensehat_cpp -- -j4 -l4
+[31.383s] [ 50%] [32mBuilding CXX object CMakeFiles/sensehat_node.dir/src/sensehat_node.cpp.o[0m

@@ -1,0 +1,51 @@
+Built target ament_cmake_python_symlink_ros2_system_monitor
+running egg_info
+writing ros2_system_monitor.egg-info/PKG-INFO
+writing dependency_links to ros2_system_monitor.egg-info/dependency_links.txt
+writing top-level names to ros2_system_monitor.egg-info/top_level.txt
+reading manifest file 'ros2_system_monitor.egg-info/SOURCES.txt'
+writing manifest file 'ros2_system_monitor.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ros2_system_monitor_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/pythonpath.sh
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor-0.2.2-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor-0.2.2-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor-0.2.2-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor-0.2.2-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/__init__.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/cpu_monitor.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/hdd_monitor.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/mem_monitor.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/net_monitor.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/ntp_monitor.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/utilities.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/config/system_monitor.yaml
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/cpu_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/hdd_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/mem_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/net_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/ntp_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/launch/system_monitor.launch.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/cpu_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/hdd_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/mem_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/net_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/ntp_monitor_node.py
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ament_index/resource_index/package_run_dependencies/ros2_system_monitor
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ament_index/resource_index/parent_prefix_path/ros2_system_monitor
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/path.sh
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/path.dsv
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/local_setup.bash
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/local_setup.sh
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/local_setup.zsh
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/local_setup.dsv
+-- Symlinking: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/package.dsv
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ament_index/resource_index/packages/ros2_system_monitor
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/cmake/ros2_system_monitorConfig.cmake
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/cmake/ros2_system_monitorConfig-version.cmake
+-- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/package.xml
+Listing '/home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor'...

@@ -1,0 +1,26 @@
+[0.057s] Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/autonomous_rover -- -j4 -l4
+[0.248s] [35m[1mConsolidate compiler generated dependencies of target autonomous_node[0m
+[0.351s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_node.dir/src/autonomous_node.cpp.o[0m
+[37.969s] [100%] [32m[1mLinking CXX executable autonomous_node[0m
+[40.187s] [100%] Built target autonomous_node
+[40.228s] Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/autonomous_rover -- -j4 -l4
+[40.278s] Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --install /home/creampi/ros2_ws/build/autonomous_rover
+[40.303s] -- Install configuration: ""
+[40.305s] -- Execute custom install script
+[40.307s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/lib/autonomous_rover/autonomous_node
+[40.310s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/ament_index/resource_index/package_run_dependencies/autonomous_rover
+[40.311s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/ament_index/resource_index/parent_prefix_path/autonomous_rover
+[40.313s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/environment/ament_prefix_path.sh
+[40.314s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/environment/ament_prefix_path.dsv
+[40.316s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/environment/path.sh
+[40.317s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/environment/path.dsv
+[40.322s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/local_setup.bash
+[40.324s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/local_setup.sh
+[40.326s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/local_setup.zsh
+[40.326s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/local_setup.dsv
+[40.326s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/package.dsv
+[40.357s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/ament_index/resource_index/packages/autonomous_rover
+[40.359s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/cmake/autonomous_roverConfig.cmake
+[40.361s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/cmake/autonomous_roverConfig-version.cmake
+[40.363s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/package.xml
+[40.375s] Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --install /home/creampi/ros2_ws/build/autonomous_rover

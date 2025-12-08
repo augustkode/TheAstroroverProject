@@ -1,0 +1,103 @@
+[0.000000] (-) TimerEvent: {}
+[0.001641] (rover_driver) JobQueued: {'identifier': 'rover_driver', 'dependencies': OrderedDict()}
+[0.002367] (rover_driver) JobStarted: {'identifier': 'rover_driver'}
+[0.097924] (-) TimerEvent: {}
+[0.199413] (-) TimerEvent: {}
+[0.300104] (-) TimerEvent: {}
+[0.400838] (-) TimerEvent: {}
+[0.501532] (-) TimerEvent: {}
+[0.602290] (-) TimerEvent: {}
+[0.703039] (-) TimerEvent: {}
+[0.803994] (-) TimerEvent: {}
+[0.904611] (-) TimerEvent: {}
+[1.005235] (-) TimerEvent: {}
+[1.106030] (-) TimerEvent: {}
+[1.206796] (-) TimerEvent: {}
+[1.308629] (-) TimerEvent: {}
+[1.409382] (-) TimerEvent: {}
+[1.510978] (-) TimerEvent: {}
+[1.611851] (-) TimerEvent: {}
+[1.712812] (-) TimerEvent: {}
+[1.813533] (-) TimerEvent: {}
+[1.914995] (-) TimerEvent: {}
+[2.015735] (-) TimerEvent: {}
+[2.116462] (-) TimerEvent: {}
+[2.217088] (-) TimerEvent: {}
+[2.317715] (-) TimerEvent: {}
+[2.418767] (-) TimerEvent: {}
+[2.520068] (-) TimerEvent: {}
+[2.620708] (-) TimerEvent: {}
+[2.721328] (-) TimerEvent: {}
+[2.822111] (-) TimerEvent: {}
+[2.923414] (-) TimerEvent: {}
+[3.025355] (-) TimerEvent: {}
+[3.126303] (-) TimerEvent: {}
+[3.226974] (-) TimerEvent: {}
+[3.327800] (-) TimerEvent: {}
+[3.422282] (rover_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/creampi/ros2_ws/src/rover_driver/build/rover_driver/build', '--no-deps', 'symlink_data'], 'cwd': '/home/creampi/ros2_ws/src/rover_driver/build/rover_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'creampi', 'SSH_CLIENT': '192.168.10.81 58360 22', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/creampi', 'OLDPWD': '/home/creampi/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nb_NO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/creampi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'creampi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'PWD': '/home/creampi/ros2_ws/src/rover_driver/build/rover_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.81 58360 192.168.10.184 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/creampi/ros2_ws/src/rover_driver/build/rover_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/rover_driver/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/sensehat_ros:/home/creampi/ros2_ws/build/rover_driver:/home/creampi/ros2_ws/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/arduino_bridge:/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/sensehat_cpp'}, 'shell': False}
+[3.428094] (-) TimerEvent: {}
+[3.528970] (-) TimerEvent: {}
+[3.629819] (-) TimerEvent: {}
+[3.730693] (-) TimerEvent: {}
+[3.831358] (-) TimerEvent: {}
+[3.933156] (-) TimerEvent: {}
+[4.034798] (-) TimerEvent: {}
+[4.136372] (-) TimerEvent: {}
+[4.237819] (-) TimerEvent: {}
+[4.339436] (-) TimerEvent: {}
+[4.440357] (-) TimerEvent: {}
+[4.541455] (-) TimerEvent: {}
+[4.642427] (-) TimerEvent: {}
+[4.744474] (-) TimerEvent: {}
+[4.848182] (-) TimerEvent: {}
+[4.949291] (-) TimerEvent: {}
+[5.050709] (-) TimerEvent: {}
+[5.151709] (-) TimerEvent: {}
+[5.184196] (rover_driver) StdoutLine: {'line': b'running develop\n'}
+[5.251933] (-) TimerEvent: {}
+[5.352814] (-) TimerEvent: {}
+[5.454839] (-) TimerEvent: {}
+[5.556272] (-) TimerEvent: {}
+[5.657142] (-) TimerEvent: {}
+[5.757856] (-) TimerEvent: {}
+[5.858615] (-) TimerEvent: {}
+[5.959507] (-) TimerEvent: {}
+[6.060372] (-) TimerEvent: {}
+[6.161810] (-) TimerEvent: {}
+[6.263058] (-) TimerEvent: {}
+[6.364152] (-) TimerEvent: {}
+[6.465766] (-) TimerEvent: {}
+[6.567581] (-) TimerEvent: {}
+[6.669359] (-) TimerEvent: {}
+[6.770637] (-) TimerEvent: {}
+[6.781045] (rover_driver) StdoutLine: {'line': b'running egg_info\n'}
+[6.781777] (rover_driver) StdoutLine: {'line': b'creating rover_driver.egg-info\n'}
+[6.783543] (rover_driver) StdoutLine: {'line': b'writing rover_driver.egg-info/PKG-INFO\n'}
+[6.793492] (rover_driver) StdoutLine: {'line': b'writing dependency_links to rover_driver.egg-info/dependency_links.txt\n'}
+[6.796020] (rover_driver) StdoutLine: {'line': b'writing entry points to rover_driver.egg-info/entry_points.txt\n'}
+[6.796563] (rover_driver) StdoutLine: {'line': b'writing requirements to rover_driver.egg-info/requires.txt\n'}
+[6.797332] (rover_driver) StdoutLine: {'line': b'writing top-level names to rover_driver.egg-info/top_level.txt\n'}
+[6.797843] (rover_driver) StdoutLine: {'line': b"writing manifest file 'rover_driver.egg-info/SOURCES.txt'\n"}
+[6.805501] (rover_driver) StdoutLine: {'line': b"reading manifest file 'rover_driver.egg-info/SOURCES.txt'\n"}
+[6.808596] (rover_driver) StdoutLine: {'line': b"writing manifest file 'rover_driver.egg-info/SOURCES.txt'\n"}
+[6.817429] (rover_driver) StdoutLine: {'line': b'running build_ext\n'}
+[6.819260] (rover_driver) StdoutLine: {'line': b'Creating /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/lib/python3.10/site-packages/rover-driver.egg-link (link to .)\n'}
+[6.824186] (rover_driver) StdoutLine: {'line': b'Installing imu_publisher script to /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/lib/rover_driver\n'}
+[6.825982] (rover_driver) StdoutLine: {'line': b'Installing motor_driver script to /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/lib/rover_driver\n'}
+[6.827927] (rover_driver) StdoutLine: {'line': b'Installing test_publisher script to /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/lib/rover_driver\n'}
+[6.831069] (rover_driver) StdoutLine: {'line': b'\n'}
+[6.832086] (rover_driver) StdoutLine: {'line': b'Installed /home/creampi/ros2_ws/src/rover_driver/build/rover_driver\n'}
+[6.832879] (rover_driver) StdoutLine: {'line': b'running symlink_data\n'}
+[6.833842] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/share/ament_index\n'}
+[6.835141] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/share/ament_index/resource_index\n'}
+[6.835898] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/share/ament_index/resource_index/packages\n'}
+[6.836919] (rover_driver) StdoutLine: {'line': b'symbolically linking /home/creampi/ros2_ws/src/rover_driver/build/rover_driver/resource/rover_driver -> /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/share/ament_index/resource_index/packages\n'}
+[6.839335] (rover_driver) StdoutLine: {'line': b'symbolically linking /home/creampi/ros2_ws/src/rover_driver/build/rover_driver/package.xml -> /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/share/rover_driver\n'}
+[6.840825] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/share/rover_driver/launch\n'}
+[6.844756] (rover_driver) StdoutLine: {'line': b'symbolically linking /home/creampi/ros2_ws/src/rover_driver/build/rover_driver/launch/rover.launch.py -> /home/creampi/ros2_ws/src/rover_driver/install/rover_driver/share/rover_driver/launch\n'}
+[6.871196] (-) TimerEvent: {}
+[6.973806] (-) TimerEvent: {}
+[7.019656] (rover_driver) CommandEnded: {'returncode': 0}
+[7.076173] (-) TimerEvent: {}
+[7.104008] (rover_driver) JobEnded: {'identifier': 'rover_driver', 'rc': 0}
+[7.107316] (-) EventReactorShutdown: {}

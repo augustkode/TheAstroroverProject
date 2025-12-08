@@ -1,0 +1,27 @@
+running develop
+running egg_info
+creating sensehat_ros.egg-info
+writing sensehat_ros.egg-info/PKG-INFO
+writing dependency_links to sensehat_ros.egg-info/dependency_links.txt
+writing entry points to sensehat_ros.egg-info/entry_points.txt
+writing requirements to sensehat_ros.egg-info/requires.txt
+writing top-level names to sensehat_ros.egg-info/top_level.txt
+writing manifest file 'sensehat_ros.egg-info/SOURCES.txt'
+reading manifest file 'sensehat_ros.egg-info/SOURCES.txt'
+writing manifest file 'sensehat_ros.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages/sensehat-ros.egg-link (link to .)
+Installing sensehat_node script to /home/creampi/ros2_ws/install/sensehat_ros/lib/sensehat_ros
+Installing sensehat_publisher script to /home/creampi/ros2_ws/install/sensehat_ros/lib/sensehat_ros
+
+Installed /home/creampi/ros2_ws/build/sensehat_ros
+running symlink_data
+creating /home/creampi/ros2_ws/install/sensehat_ros/share/ament_index
+creating /home/creampi/ros2_ws/install/sensehat_ros/share/ament_index/resource_index
+creating /home/creampi/ros2_ws/install/sensehat_ros/share/ament_index/resource_index/packages
+symbolically linking /home/creampi/ros2_ws/build/sensehat_ros/resource/sensehat_ros -> /home/creampi/ros2_ws/install/sensehat_ros/share/ament_index/resource_index/packages
+symbolically linking /home/creampi/ros2_ws/build/sensehat_ros/package.xml -> /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros
+creating /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros/launch
+symbolically linking /home/creampi/ros2_ws/build/sensehat_ros/launch/sensehat_launch.py -> /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros/launch
+creating /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros/config
+symbolically linking /home/creampi/ros2_ws/build/sensehat_ros/config/sensehat_config.yaml -> /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros/config

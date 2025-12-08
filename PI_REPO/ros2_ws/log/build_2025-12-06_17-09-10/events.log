@@ -1,0 +1,123 @@
+[0.000000] (-) TimerEvent: {}
+[0.001730] (-) JobUnselected: {'identifier': 'autonomous_rover'}
+[0.002369] (-) JobUnselected: {'identifier': 'carto_localization'}
+[0.002900] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.003101] (-) JobUnselected: {'identifier': 'ros2_system_monitor'}
+[0.003388] (-) JobUnselected: {'identifier': 'rover_driver'}
+[0.003548] (-) JobUnselected: {'identifier': 'sensehat_cpp'}
+[0.003657] (-) JobUnselected: {'identifier': 'sensehat_ros'}
+[0.003989] (-) JobUnselected: {'identifier': 'temperature_tracker'}
+[0.004125] (arduino_bridge) JobQueued: {'identifier': 'arduino_bridge', 'dependencies': OrderedDict()}
+[0.004215] (arduino_bridge) JobStarted: {'identifier': 'arduino_bridge'}
+[0.099025] (-) TimerEvent: {}
+[0.199825] (-) TimerEvent: {}
+[0.300680] (-) TimerEvent: {}
+[0.402040] (-) TimerEvent: {}
+[0.504118] (-) TimerEvent: {}
+[0.617975] (-) TimerEvent: {}
+[0.718694] (-) TimerEvent: {}
+[0.819501] (-) TimerEvent: {}
+[0.920489] (-) TimerEvent: {}
+[1.021142] (-) TimerEvent: {}
+[1.121840] (-) TimerEvent: {}
+[1.222581] (-) TimerEvent: {}
+[1.323378] (-) TimerEvent: {}
+[1.424180] (-) TimerEvent: {}
+[1.525093] (-) TimerEvent: {}
+[1.625924] (-) TimerEvent: {}
+[1.726630] (-) TimerEvent: {}
+[1.827429] (-) TimerEvent: {}
+[1.928173] (-) TimerEvent: {}
+[2.028862] (-) TimerEvent: {}
+[2.129497] (-) TimerEvent: {}
+[2.230145] (-) TimerEvent: {}
+[2.330808] (-) TimerEvent: {}
+[2.431457] (-) TimerEvent: {}
+[2.532095] (-) TimerEvent: {}
+[2.632732] (-) TimerEvent: {}
+[2.733375] (-) TimerEvent: {}
+[2.834059] (-) TimerEvent: {}
+[2.934723] (-) TimerEvent: {}
+[3.035602] (-) TimerEvent: {}
+[3.137582] (-) TimerEvent: {}
+[3.238319] (-) TimerEvent: {}
+[3.339224] (-) TimerEvent: {}
+[3.439997] (-) TimerEvent: {}
+[3.540926] (-) TimerEvent: {}
+[3.656031] (-) TimerEvent: {}
+[3.758181] (-) TimerEvent: {}
+[3.853179] (arduino_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/creampi/ros2_ws/build/arduino_bridge/build'], 'cwd': '/home/creampi/ros2_ws/build/arduino_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'creampi', 'SSH_CLIENT': '192.168.10.81 53074 22', 'LC_TIME': 'nb_NO.UTF-8', 'ROS_PACKAGE_PATH': '/home/creampi/ros2_ws/install/carto_localization/share:/home/creampi/ros2_ws/src/install/carto_localization/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/creampi', 'OLDPWD': '/home/creampi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nb_NO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/creampi/ros2_ws/install:/home/creampi/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'creampi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/creampi/ros2_ws/install/carto_localization/lib/aarch64-linux-gnu/pkgconfig:/home/creampi/ros2_ws/install/carto_localization/lib/pkgconfig:/home/creampi/ros2_ws/src/install/carto_localization/lib/aarch64-linux-gnu/pkgconfig:/home/creampi/ros2_ws/src/install/carto_localization/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/creampi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'PWD': '/home/creampi/ros2_ws/build/arduino_bridge', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.81 53074 192.168.10.183 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/creampi/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/rover_driver:/home/creampi/ros2_ws/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages:/home/creampi/ros2_ws/build/arduino_bridge:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/ros2_system_monitor/local/lib/python3.10/dist-packages:/home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover'}, 'shell': False}
+[3.858357] (-) TimerEvent: {}
+[3.959746] (-) TimerEvent: {}
+[4.060430] (-) TimerEvent: {}
+[4.161175] (-) TimerEvent: {}
+[4.261946] (-) TimerEvent: {}
+[4.362687] (-) TimerEvent: {}
+[4.463414] (-) TimerEvent: {}
+[4.564116] (-) TimerEvent: {}
+[4.664767] (-) TimerEvent: {}
+[4.765478] (-) TimerEvent: {}
+[4.866197] (-) TimerEvent: {}
+[4.966973] (-) TimerEvent: {}
+[5.067614] (-) TimerEvent: {}
+[5.120824] (arduino_bridge) StdoutLine: {'line': b'running develop\n'}
+[5.167758] (-) TimerEvent: {}
+[5.268428] (-) TimerEvent: {}
+[5.369115] (-) TimerEvent: {}
+[5.469791] (-) TimerEvent: {}
+[5.570486] (-) TimerEvent: {}
+[5.671222] (-) TimerEvent: {}
+[5.771891] (-) TimerEvent: {}
+[5.872586] (-) TimerEvent: {}
+[5.935338] (arduino_bridge) StdoutLine: {'line': b'Removing /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino-bridge.egg-link (link to .)\n'}
+[5.972889] (-) TimerEvent: {}
+[6.062107] (arduino_bridge) CommandEnded: {'returncode': 0}
+[6.065814] (arduino_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/arduino_bridge', 'build', '--build-base', '/home/creampi/ros2_ws/build/arduino_bridge/build', 'install', '--record', '/home/creampi/ros2_ws/build/arduino_bridge/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/creampi/ros2_ws/src/arduino_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'creampi', 'SSH_CLIENT': '192.168.10.81 53074 22', 'LC_TIME': 'nb_NO.UTF-8', 'ROS_PACKAGE_PATH': '/home/creampi/ros2_ws/install/carto_localization/share:/home/creampi/ros2_ws/src/install/carto_localization/share', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/creampi', 'OLDPWD': '/home/creampi', 'SSH_TTY': '/dev/pts/9', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nb_NO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/creampi/ros2_ws/install:/home/creampi/ros2_ws/src/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'creampi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/creampi/ros2_ws/install/carto_localization/lib/aarch64-linux-gnu/pkgconfig:/home/creampi/ros2_ws/install/carto_localization/lib/pkgconfig:/home/creampi/ros2_ws/src/install/carto_localization/lib/aarch64-linux-gnu/pkgconfig:/home/creampi/ros2_ws/src/install/carto_localization/lib/pkgconfig', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/creampi/.local/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'PWD': '/home/creampi/ros2_ws/build/arduino_bridge', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.81 53074 192.168.10.183 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/creampi/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/rover_driver:/home/creampi/ros2_ws/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages:/home/creampi/ros2_ws/build/arduino_bridge:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/ros2_system_monitor/local/lib/python3.10/dist-packages:/home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover'}, 'shell': False}
+[6.073941] (-) TimerEvent: {}
+[6.174985] (-) TimerEvent: {}
+[6.275676] (-) TimerEvent: {}
+[6.376525] (-) TimerEvent: {}
+[6.477434] (-) TimerEvent: {}
+[6.578428] (-) TimerEvent: {}
+[6.679133] (-) TimerEvent: {}
+[6.779795] (-) TimerEvent: {}
+[6.880432] (-) TimerEvent: {}
+[6.981090] (-) TimerEvent: {}
+[7.081749] (-) TimerEvent: {}
+[7.182457] (-) TimerEvent: {}
+[7.239187] (arduino_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[7.241902] (arduino_bridge) StdoutLine: {'line': b'writing ../../build/arduino_bridge/arduino_bridge.egg-info/PKG-INFO\n'}
+[7.243188] (arduino_bridge) StdoutLine: {'line': b'writing dependency_links to ../../build/arduino_bridge/arduino_bridge.egg-info/dependency_links.txt\n'}
+[7.244225] (arduino_bridge) StdoutLine: {'line': b'writing entry points to ../../build/arduino_bridge/arduino_bridge.egg-info/entry_points.txt\n'}
+[7.245101] (arduino_bridge) StdoutLine: {'line': b'writing requirements to ../../build/arduino_bridge/arduino_bridge.egg-info/requires.txt\n'}
+[7.245769] (arduino_bridge) StdoutLine: {'line': b'writing top-level names to ../../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt\n'}
+[7.253464] (arduino_bridge) StdoutLine: {'line': b"reading manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[7.257718] (arduino_bridge) StdoutLine: {'line': b"writing manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[7.258459] (arduino_bridge) StdoutLine: {'line': b'running build\n'}
+[7.259062] (arduino_bridge) StdoutLine: {'line': b'running build_py\n'}
+[7.259739] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/build/arduino_bridge/build\n'}
+[7.260372] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/build/arduino_bridge/build/lib\n'}
+[7.260780] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge\n'}
+[7.261321] (arduino_bridge) StdoutLine: {'line': b'copying arduino_bridge/__init__.py -> /home/creampi/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge\n'}
+[7.261785] (arduino_bridge) StdoutLine: {'line': b'copying arduino_bridge/arduino_bridge_node.py -> /home/creampi/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge\n'}
+[7.262374] (arduino_bridge) StdoutLine: {'line': b'running install\n'}
+[7.263594] (arduino_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[7.266674] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge\n'}
+[7.267343] (arduino_bridge) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge/__init__.py -> /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge\n'}
+[7.268047] (arduino_bridge) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/build/arduino_bridge/build/lib/arduino_bridge/arduino_bridge_node.py -> /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge\n'}
+[7.272171] (arduino_bridge) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge/__init__.py to __init__.cpython-310.pyc\n'}
+[7.273562] (arduino_bridge) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge/arduino_bridge_node.py to arduino_bridge_node.cpython-310.pyc\n'}
+[7.278558] (arduino_bridge) StdoutLine: {'line': b'running install_data\n'}
+[7.279418] (arduino_bridge) StdoutLine: {'line': b'copying resource/arduino_bridge -> /home/creampi/ros2_ws/install/arduino_bridge/share/ament_index/resource_index/packages\n'}
+[7.280080] (arduino_bridge) StdoutLine: {'line': b'copying package.xml -> /home/creampi/ros2_ws/install/arduino_bridge/share/arduino_bridge\n'}
+[7.280629] (arduino_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.282587] (-) TimerEvent: {}
+[7.288268] (arduino_bridge) StdoutLine: {'line': b'Copying ../../build/arduino_bridge/arduino_bridge.egg-info to /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info\n'}
+[7.295079] (arduino_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[7.382749] (-) TimerEvent: {}
+[7.383473] (arduino_bridge) StdoutLine: {'line': b'Installing arduino_bridge_node script to /home/creampi/ros2_ws/install/arduino_bridge/lib/arduino_bridge\n'}
+[7.385074] (arduino_bridge) StdoutLine: {'line': b"writing list of installed files to '/home/creampi/ros2_ws/build/arduino_bridge/install.log'\n"}
+[7.483149] (-) TimerEvent: {}
+[7.500055] (arduino_bridge) CommandEnded: {'returncode': 0}
+[7.573077] (arduino_bridge) JobEnded: {'identifier': 'arduino_bridge', 'rc': 0}
+[7.577121] (-) EventReactorShutdown: {}

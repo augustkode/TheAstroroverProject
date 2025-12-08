@@ -1,0 +1,3 @@
+[console_scripts]
+temperature_tracker = temperature_tracker.temperature_tracker:main
+

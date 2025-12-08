@@ -1,0 +1,19 @@
+running develop
+running egg_info
+writing rover_control.egg-info/PKG-INFO
+writing dependency_links to rover_control.egg-info/dependency_links.txt
+writing entry points to rover_control.egg-info/entry_points.txt
+writing requirements to rover_control.egg-info/requires.txt
+writing top-level names to rover_control.egg-info/top_level.txt
+reading manifest file 'rover_control.egg-info/SOURCES.txt'
+writing manifest file 'rover_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sp/PC_REPO/install/rover_control/lib/python3.10/site-packages/rover-control.egg-link (link to .)
+Installing motor_driver script to /home/sp/PC_REPO/install/rover_control/lib/rover_control
+
+Installed /home/sp/PC_REPO/build/rover_control
+running symlink_data
+symbolically linking /home/sp/PC_REPO/build/rover_control/resource/rover_control -> /home/sp/PC_REPO/install/rover_control/share/ament_index/resource_index/packages
+symbolically linking /home/sp/PC_REPO/build/rover_control/package.xml -> /home/sp/PC_REPO/install/rover_control/share/rover_control
+symbolically linking /home/sp/PC_REPO/build/rover_control/launch/rover_teleop_x56.launch.py -> /home/sp/PC_REPO/install/rover_control/share/rover_control/launch
+symbolically linking /home/sp/PC_REPO/build/rover_control/config/x56_teleop.yaml -> /home/sp/PC_REPO/install/rover_control/share/rover_control/config

@@ -1,0 +1,21 @@
+[5.029s] Invoking command in '/home/creampi/ros2_ws/src/arduino_bridge': PYTHONPATH=/home/creampi/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/creampi/ros2_ws/build/arduino_bridge/build install --record /home/creampi/ros2_ws/build/arduino_bridge/install.log --single-version-externally-managed install_data
+[6.629s] running egg_info
+[6.631s] writing ../../build/arduino_bridge/arduino_bridge.egg-info/PKG-INFO
+[6.634s] writing dependency_links to ../../build/arduino_bridge/arduino_bridge.egg-info/dependency_links.txt
+[6.635s] writing entry points to ../../build/arduino_bridge/arduino_bridge.egg-info/entry_points.txt
+[6.638s] writing requirements to ../../build/arduino_bridge/arduino_bridge.egg-info/requires.txt
+[6.639s] writing top-level names to ../../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt
+[6.652s] reading manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'
+[6.660s] writing manifest file '../../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'
+[6.660s] running build
+[6.661s] running build_py
+[6.661s] running install
+[6.664s] running install_lib
+[6.666s] running install_data
+[6.668s] running install_egg_info
+[6.676s] removing '/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info' (and everything under it)
+[6.678s] Copying ../../build/arduino_bridge/arduino_bridge.egg-info to /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info
+[6.687s] running install_scripts
+[6.803s] Installing arduino_bridge_node script to /home/creampi/ros2_ws/install/arduino_bridge/lib/arduino_bridge
+[6.806s] writing list of installed files to '/home/creampi/ros2_ws/build/arduino_bridge/install.log'
+[6.969s] Invoked command in '/home/creampi/ros2_ws/src/arduino_bridge' returned '0': PYTHONPATH=/home/creampi/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/arduino_bridge build --build-base /home/creampi/ros2_ws/build/arduino_bridge/build install --record /home/creampi/ros2_ws/build/arduino_bridge/install.log --single-version-externally-managed install_data

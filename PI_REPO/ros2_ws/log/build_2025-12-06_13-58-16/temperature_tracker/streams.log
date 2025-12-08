@@ -1,0 +1,17 @@
+[13.618s] Invoking command in '/home/creampi/ros2_ws/build/temperature_tracker': PYTHONPATH=/home/creampi/ros2_ws/build/temperature_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/creampi/ros2_ws/build/temperature_tracker/build --no-deps symlink_data
+[16.693s] running develop
+[19.474s] running egg_info
+[19.481s] writing temperature_tracker.egg-info/PKG-INFO
+[19.484s] writing dependency_links to temperature_tracker.egg-info/dependency_links.txt
+[19.486s] writing entry points to temperature_tracker.egg-info/entry_points.txt
+[19.487s] writing requirements to temperature_tracker.egg-info/requires.txt
+[19.488s] writing top-level names to temperature_tracker.egg-info/top_level.txt
+[19.496s] reading manifest file 'temperature_tracker.egg-info/SOURCES.txt'
+[19.510s] writing manifest file 'temperature_tracker.egg-info/SOURCES.txt'
+[19.525s] running build_ext
+[19.529s] Creating /home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages/temperature-tracker.egg-link (link to .)
+[19.533s] Installing temperature_tracker script to /home/creampi/ros2_ws/install/temperature_tracker/lib/temperature_tracker
+[19.536s] 
+[19.558s] Installed /home/creampi/ros2_ws/build/temperature_tracker
+[19.561s] running symlink_data
+[19.793s] Invoked command in '/home/creampi/ros2_ws/build/temperature_tracker' returned '0': PYTHONPATH=/home/creampi/ros2_ws/build/temperature_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/creampi/ros2_ws/build/temperature_tracker/build --no-deps symlink_data

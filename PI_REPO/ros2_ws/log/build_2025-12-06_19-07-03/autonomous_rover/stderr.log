@@ -1,0 +1,10 @@
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:116:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ does not name a type
+  116 |     [01;31m[Kpub_[m[K->publish(msg);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:[m[K In member function ‘[01m[Kvoid Autopilot::publish_cmd()[m[K’:
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:71:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdiagonal_limit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   71 |     const float [01;35m[Kdiagonal_limit[m[K = 0.35;
+      |                 [01;35m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/autonomous_node.dir/build.make:76: CMakeFiles/autonomous_node.dir/src/autonomous_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

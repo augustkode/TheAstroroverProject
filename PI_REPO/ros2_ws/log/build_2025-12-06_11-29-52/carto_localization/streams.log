@@ -1,0 +1,51 @@
+[2.635s] Invoking command in '/home/creampi/ros2_ws/build/carto_localization': /usr/bin/cmake /home/creampi/ros2_ws/src/carto_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/carto_localization
+[4.051s] -- The C compiler identification is GNU 11.4.0
+[4.819s] -- The CXX compiler identification is GNU 11.4.0
+[4.927s] -- Detecting C compiler ABI info
+[5.653s] -- Detecting C compiler ABI info - done
+[5.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[5.694s] -- Detecting C compile features
+[5.697s] -- Detecting C compile features - done
+[5.714s] -- Detecting CXX compiler ABI info
+[6.389s] -- Detecting CXX compiler ABI info - done
+[6.444s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[6.447s] -- Detecting CXX compile features
+[6.451s] -- Detecting CXX compile features - done
+[6.501s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.466s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[10.371s] -- Configuring done
+[10.453s] -- Generating done
+[10.475s] [33mCMake Warning:
+[10.476s]   Manually-specified variables were not used by the project:
+[10.476s] 
+[10.477s]     CATKIN_INSTALL_INTO_PREFIX_ROOT
+[10.477s]     CATKIN_SYMLINK_INSTALL
+[10.478s] 
+[10.479s] [0m
+[10.501s] -- Build files have been written to: /home/creampi/ros2_ws/build/carto_localization
+[10.581s] Invoked command in '/home/creampi/ros2_ws/build/carto_localization' returned '0': /usr/bin/cmake /home/creampi/ros2_ws/src/carto_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/carto_localization
+[10.583s] Invoking command in '/home/creampi/ros2_ws/build/carto_localization': /usr/bin/cmake --build /home/creampi/ros2_ws/build/carto_localization -- -j4 -l4
+[10.925s] Invoked command in '/home/creampi/ros2_ws/build/carto_localization' returned '0': /usr/bin/cmake --build /home/creampi/ros2_ws/build/carto_localization -- -j4 -l4
+[11.020s] Invoking command in '/home/creampi/ros2_ws/build/carto_localization': /usr/bin/cmake --install /home/creampi/ros2_ws/build/carto_localization
+[11.095s] -- Install configuration: ""
+[11.100s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/launch
+[11.101s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/launch/cartographer_localization.launch.py
+[11.102s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/launch/tf.launch.py
+[11.105s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/config
+[11.108s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/config/cartographer_localization.lua
+[11.111s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/ament_index/resource_index/package_run_dependencies/carto_localization
+[11.115s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/ament_index/resource_index/parent_prefix_path/carto_localization
+[11.121s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/environment/ament_prefix_path.sh
+[11.124s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/environment/ament_prefix_path.dsv
+[11.127s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/environment/path.sh
+[11.132s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/environment/path.dsv
+[11.136s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/local_setup.bash
+[11.139s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/local_setup.sh
+[11.144s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/local_setup.zsh
+[11.148s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/local_setup.dsv
+[11.159s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/package.dsv
+[11.163s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/ament_index/resource_index/packages/carto_localization
+[11.166s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/cmake/carto_localizationConfig.cmake
+[11.168s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/cmake/carto_localizationConfig-version.cmake
+[11.171s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/package.xml
+[11.190s] Invoked command in '/home/creampi/ros2_ws/build/carto_localization' returned '0': /usr/bin/cmake --install /home/creampi/ros2_ws/build/carto_localization

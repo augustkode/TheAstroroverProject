@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>carto_localization</name>
+  <version>0.0.1</version>
+  <description>Cartographer localization launch and config</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <exec_depend>cartographer_ros</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>rclcpp</exec_depend>
+
+</package>

@@ -1,0 +1,290 @@
+[0.000000] (-) TimerEvent: {}
+[0.002050] (-) JobUnselected: {'identifier': 'arduino_bridge'}
+[0.002280] (-) JobUnselected: {'identifier': 'carto_localization'}
+[0.002390] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.002485] (-) JobUnselected: {'identifier': 'ros2_system_monitor'}
+[0.002577] (-) JobUnselected: {'identifier': 'rover_driver'}
+[0.002655] (-) JobUnselected: {'identifier': 'sensehat_cpp'}
+[0.002729] (-) JobUnselected: {'identifier': 'sensehat_ros'}
+[0.002802] (-) JobUnselected: {'identifier': 'temperature_tracker'}
+[0.002883] (autonomous_rover) JobQueued: {'identifier': 'autonomous_rover', 'dependencies': OrderedDict()}
+[0.002968] (autonomous_rover) JobStarted: {'identifier': 'autonomous_rover'}
+[0.072081] (autonomous_rover) JobProgress: {'identifier': 'autonomous_rover', 'progress': 'cmake'}
+[0.076063] (autonomous_rover) JobProgress: {'identifier': 'autonomous_rover', 'progress': 'build'}
+[0.079210] (autonomous_rover) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/creampi/ros2_ws/build/autonomous_rover', '--', '-j4', '-l4'], 'cwd': '/home/creampi/ros2_ws/build/autonomous_rover', 'env': OrderedDict([('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'creampi'), ('SSH_CLIENT', '192.168.10.81 40148 22'), ('LC_TIME', 'nb_NO.UTF-8'), ('ROS_PACKAGE_PATH', '/home/creampi/ros2_ws/install/carto_localization/share:/home/creampi/ros2_ws/src/install/carto_localization/share'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/creampi/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/creampi/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/creampi'), ('TERM_PROGRAM_VERSION', '1.106.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-0d60f8d0-5b78-4b00-84ee-76e0a23a09cf.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/creampi/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/creampi/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/creampi/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/libs/debugpy'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/creampi/ros2_ws/install:/home/creampi/ros2_ws/src/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'creampi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/creampi/ros2_ws/install/carto_localization/lib/aarch64-linux-gnu/pkgconfig:/home/creampi/ros2_ws/install/carto_localization/lib/pkgconfig:/home/creampi/ros2_ws/src/install/carto_localization/lib/aarch64-linux-gnu/pkgconfig:/home/creampi/ros2_ws/src/install/carto_localization/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/creampi/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/creampi/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/home/creampi/.vscode-server/cli/servers/Stable-cb1933bbc38d329b3595673a600fab5c7368f0a7/server/bin/remote-cli:/home/creampi/.local/bin:/opt/ros/humble/bin:/home/creampi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/creampi/.vscode-server/extensions/ms-python.debugpy-2025.16.0/bundled/scripts/noConfigScripts'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/creampi/.vscode-server/extensions/ms-python.debugpy-2025.16.0/.noConfigDebugAdapterEndpoints/endpoint-a6975ed0159b6e3f.txt'), ('LANG', 'C.UTF-8'), ('PYTHONSTARTUP', '/home/creampi/.vscode-server/data/User/workspaceStorage/37000ad677dce699ec9239bc29004c31/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-db173cb2a2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/creampi/ros2_ws/build/autonomous_rover'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.81 40148 192.168.10.183 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/rover_driver:/home/creampi/ros2_ws/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages:/home/creampi/ros2_ws/build/arduino_bridge:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/src/install/ros2_system_monitor/local/lib/python3.10/dist-packages:/home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover')]), 'shell': False}
+[0.098219] (-) TimerEvent: {}
+[0.199386] (-) TimerEvent: {}
+[0.300221] (-) TimerEvent: {}
+[0.328725] (autonomous_rover) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target autonomous_node\x1b[0m\n'}
+[0.400448] (-) TimerEvent: {}
+[0.457628] (autonomous_rover) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/autonomous_node.dir/src/autonomous_node.cpp.o\x1b[0m\n'}
+[0.500659] (-) TimerEvent: {}
+[0.601479] (-) TimerEvent: {}
+[0.702776] (-) TimerEvent: {}
+[0.803548] (-) TimerEvent: {}
+[0.910573] (-) TimerEvent: {}
+[1.011898] (-) TimerEvent: {}
+[1.112950] (-) TimerEvent: {}
+[1.214099] (-) TimerEvent: {}
+[1.315080] (-) TimerEvent: {}
+[1.416530] (-) TimerEvent: {}
+[1.518117] (-) TimerEvent: {}
+[1.618983] (-) TimerEvent: {}
+[1.720177] (-) TimerEvent: {}
+[1.821101] (-) TimerEvent: {}
+[1.922056] (-) TimerEvent: {}
+[2.023211] (-) TimerEvent: {}
+[2.124056] (-) TimerEvent: {}
+[2.224846] (-) TimerEvent: {}
+[2.325687] (-) TimerEvent: {}
+[2.430609] (-) TimerEvent: {}
+[2.532631] (-) TimerEvent: {}
+[2.633867] (-) TimerEvent: {}
+[2.734815] (-) TimerEvent: {}
+[2.837049] (-) TimerEvent: {}
+[2.938768] (-) TimerEvent: {}
+[3.039683] (-) TimerEvent: {}
+[3.140563] (-) TimerEvent: {}
+[3.241861] (-) TimerEvent: {}
+[3.344707] (-) TimerEvent: {}
+[3.448215] (-) TimerEvent: {}
+[3.550735] (-) TimerEvent: {}
+[3.654411] (-) TimerEvent: {}
+[3.755656] (-) TimerEvent: {}
+[3.857750] (-) TimerEvent: {}
+[3.959227] (-) TimerEvent: {}
+[4.061780] (-) TimerEvent: {}
+[4.167950] (-) TimerEvent: {}
+[4.269211] (-) TimerEvent: {}
+[4.370115] (-) TimerEvent: {}
+[4.471589] (-) TimerEvent: {}
+[4.572658] (-) TimerEvent: {}
+[4.676155] (-) TimerEvent: {}
+[4.778411] (-) TimerEvent: {}
+[4.880240] (-) TimerEvent: {}
+[4.983587] (-) TimerEvent: {}
+[5.087470] (-) TimerEvent: {}
+[5.192306] (-) TimerEvent: {}
+[5.294030] (-) TimerEvent: {}
+[5.399402] (-) TimerEvent: {}
+[5.501875] (-) TimerEvent: {}
+[5.602850] (-) TimerEvent: {}
+[5.703864] (-) TimerEvent: {}
+[5.805576] (-) TimerEvent: {}
+[5.906535] (-) TimerEvent: {}
+[6.008139] (-) TimerEvent: {}
+[6.111310] (-) TimerEvent: {}
+[6.213524] (-) TimerEvent: {}
+[6.315014] (-) TimerEvent: {}
+[6.416104] (-) TimerEvent: {}
+[6.517108] (-) TimerEvent: {}
+[6.618502] (-) TimerEvent: {}
+[6.720119] (-) TimerEvent: {}
+[6.821155] (-) TimerEvent: {}
+[6.922571] (-) TimerEvent: {}
+[7.023838] (-) TimerEvent: {}
+[7.126565] (-) TimerEvent: {}
+[7.228537] (-) TimerEvent: {}
+[7.330896] (-) TimerEvent: {}
+[7.435171] (-) TimerEvent: {}
+[7.538227] (-) TimerEvent: {}
+[7.643309] (-) TimerEvent: {}
+[7.744104] (-) TimerEvent: {}
+[7.845980] (-) TimerEvent: {}
+[7.947047] (-) TimerEvent: {}
+[8.048788] (-) TimerEvent: {}
+[8.149678] (-) TimerEvent: {}
+[8.250557] (-) TimerEvent: {}
+[8.351636] (-) TimerEvent: {}
+[8.452811] (-) TimerEvent: {}
+[8.553646] (-) TimerEvent: {}
+[8.655702] (-) TimerEvent: {}
+[8.756608] (-) TimerEvent: {}
+[8.857514] (-) TimerEvent: {}
+[8.958544] (-) TimerEvent: {}
+[9.060672] (-) TimerEvent: {}
+[9.162501] (-) TimerEvent: {}
+[9.264500] (-) TimerEvent: {}
+[9.365881] (-) TimerEvent: {}
+[9.466714] (-) TimerEvent: {}
+[9.567902] (-) TimerEvent: {}
+[9.669631] (-) TimerEvent: {}
+[9.770422] (-) TimerEvent: {}
+[9.871240] (-) TimerEvent: {}
+[9.972218] (-) TimerEvent: {}
+[10.073115] (-) TimerEvent: {}
+[10.174896] (-) TimerEvent: {}
+[10.275797] (-) TimerEvent: {}
+[10.377002] (-) TimerEvent: {}
+[10.478613] (-) TimerEvent: {}
+[10.580549] (-) TimerEvent: {}
+[10.681803] (-) TimerEvent: {}
+[10.784564] (-) TimerEvent: {}
+[10.885567] (-) TimerEvent: {}
+[10.987269] (-) TimerEvent: {}
+[11.088941] (-) TimerEvent: {}
+[11.192206] (-) TimerEvent: {}
+[11.293221] (-) TimerEvent: {}
+[11.394292] (-) TimerEvent: {}
+[11.496889] (-) TimerEvent: {}
+[11.599883] (-) TimerEvent: {}
+[11.704862] (-) TimerEvent: {}
+[11.806361] (-) TimerEvent: {}
+[11.907170] (-) TimerEvent: {}
+[12.007955] (-) TimerEvent: {}
+[12.108773] (-) TimerEvent: {}
+[12.209666] (-) TimerEvent: {}
+[12.310514] (-) TimerEvent: {}
+[12.414156] (-) TimerEvent: {}
+[12.514965] (-) TimerEvent: {}
+[12.619832] (-) TimerEvent: {}
+[12.720637] (-) TimerEvent: {}
+[12.820295] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:132:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 at end of input\n'}
+[12.824134] (-) TimerEvent: {}
+[12.824957] (autonomous_rover) StderrLine: {'line': b'  132 | }\n'}
+[12.827798] (autonomous_rover) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[12.828892] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:6:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[12.833146] (autonomous_rover) StderrLine: {'line': b'    6 | class Autopilot : public rclcpp::Node \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[12.838663] (autonomous_rover) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[12.846473] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KAutopilot::Autopilot()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[12.847342] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:9:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.848161] (autonomous_rover) StderrLine: {'line': b'    9 |         \x1b[01;31m\x1b[Kpub_\x1b[m\x1b[K = this->create_publisher<geometry_msgs::msg::Twist>(\n'}
+[12.861123] (autonomous_rover) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.895064] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:12:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[12.895856] (autonomous_rover) StderrLine: {'line': b'   12 |         \x1b[01;31m\x1b[Ksub_\x1b[m\x1b[K = this->create_subscription<sensor_msgs::msg::LaserScan>(\n'}
+[12.896555] (autonomous_rover) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[12.925356] (-) TimerEvent: {}
+[13.029438] (-) TimerEvent: {}
+[13.131297] (-) TimerEvent: {}
+[13.153637] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:15:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktimer_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Ktimer_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[13.154954] (autonomous_rover) StderrLine: {'line': b'   15 |         \x1b[01;31m\x1b[Ktimer_\x1b[m\x1b[K = this->create_wall_timer(\n'}
+[13.155555] (autonomous_rover) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.156115] (autonomous_rover) StderrLine: {'line': b'      |         \x1b[32m\x1b[Ktimer_t\x1b[m\x1b[K\n'}
+[13.214898] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Autopilot::publish_cmd()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.215948] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:104:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 before \xe2\x80\x98\x1b[01m\x1b[Kelse\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.217548] (autonomous_rover) StderrLine: {'line': b'  104 |     \x1b[01;31m\x1b[Kelse\x1b[m\x1b[K\n'}
+[13.218360] (autonomous_rover) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.219057] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:79:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kto match this \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99\n'}
+[13.219784] (autonomous_rover) StderrLine: {'line': b'   79 |     \x1b[01;36m\x1b[K{\x1b[m\x1b[K\n'}
+[13.221700] (autonomous_rover) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[13.231591] (-) TimerEvent: {}
+[13.238747] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:117:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpub_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[13.244795] (autonomous_rover) StderrLine: {'line': b'  117 |     \x1b[01;31m\x1b[Kpub_\x1b[m\x1b[K->publish(msg);\n'}
+[13.246954] (autonomous_rover) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[13.247846] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:71:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kdiagonal_limit\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.249921] (autonomous_rover) StderrLine: {'line': b'   71 |     const float \x1b[01;35m\x1b[Kdiagonal_limit\x1b[m\x1b[K = 0.35;\n'}
+[13.256104] (autonomous_rover) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.260706] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:\x1b[m\x1b[K At global scope:\n'}
+[13.264559] (autonomous_rover) StderrLine: {'line': b'\x1b[01m\x1b[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:132:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id at end of input\n'}
+[13.267105] (autonomous_rover) StderrLine: {'line': b'  132 | }\n'}
+[13.270319] (autonomous_rover) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[13.331803] (-) TimerEvent: {}
+[13.432706] (-) TimerEvent: {}
+[13.534389] (-) TimerEvent: {}
+[13.635307] (-) TimerEvent: {}
+[13.737288] (-) TimerEvent: {}
+[13.838704] (-) TimerEvent: {}
+[13.939860] (-) TimerEvent: {}
+[14.044826] (-) TimerEvent: {}
+[14.147065] (-) TimerEvent: {}
+[14.248563] (-) TimerEvent: {}
+[14.349678] (-) TimerEvent: {}
+[14.451310] (-) TimerEvent: {}
+[14.553370] (-) TimerEvent: {}
+[14.654141] (-) TimerEvent: {}
+[14.755088] (-) TimerEvent: {}
+[14.856737] (-) TimerEvent: {}
+[14.958056] (-) TimerEvent: {}
+[15.059532] (-) TimerEvent: {}
+[15.160639] (-) TimerEvent: {}
+[15.263268] (-) TimerEvent: {}
+[15.364868] (-) TimerEvent: {}
+[15.468032] (-) TimerEvent: {}
+[15.571448] (-) TimerEvent: {}
+[15.672565] (-) TimerEvent: {}
+[15.773360] (-) TimerEvent: {}
+[15.874645] (-) TimerEvent: {}
+[15.975910] (-) TimerEvent: {}
+[16.076885] (-) TimerEvent: {}
+[16.178180] (-) TimerEvent: {}
+[16.279079] (-) TimerEvent: {}
+[16.380408] (-) TimerEvent: {}
+[16.481230] (-) TimerEvent: {}
+[16.582021] (-) TimerEvent: {}
+[16.683387] (-) TimerEvent: {}
+[16.784196] (-) TimerEvent: {}
+[16.885073] (-) TimerEvent: {}
+[16.985858] (-) TimerEvent: {}
+[17.086657] (-) TimerEvent: {}
+[17.187488] (-) TimerEvent: {}
+[17.289323] (-) TimerEvent: {}
+[17.393508] (-) TimerEvent: {}
+[17.495172] (-) TimerEvent: {}
+[17.595951] (-) TimerEvent: {}
+[17.696786] (-) TimerEvent: {}
+[17.797619] (-) TimerEvent: {}
+[17.898801] (-) TimerEvent: {}
+[17.999857] (-) TimerEvent: {}
+[18.100867] (-) TimerEvent: {}
+[18.201782] (-) TimerEvent: {}
+[18.302765] (-) TimerEvent: {}
+[18.403646] (-) TimerEvent: {}
+[18.504857] (-) TimerEvent: {}
+[18.605644] (-) TimerEvent: {}
+[18.706462] (-) TimerEvent: {}
+[18.807711] (-) TimerEvent: {}
+[18.908871] (-) TimerEvent: {}
+[19.010757] (-) TimerEvent: {}
+[19.114339] (-) TimerEvent: {}
+[19.215317] (-) TimerEvent: {}
+[19.316332] (-) TimerEvent: {}
+[19.418131] (-) TimerEvent: {}
+[19.519473] (-) TimerEvent: {}
+[19.622275] (-) TimerEvent: {}
+[19.723183] (-) TimerEvent: {}
+[19.824557] (-) TimerEvent: {}
+[19.925356] (-) TimerEvent: {}
+[20.026194] (-) TimerEvent: {}
+[20.127054] (-) TimerEvent: {}
+[20.227853] (-) TimerEvent: {}
+[20.328718] (-) TimerEvent: {}
+[20.431037] (-) TimerEvent: {}
+[20.532569] (-) TimerEvent: {}
+[20.633485] (-) TimerEvent: {}
+[20.734924] (-) TimerEvent: {}
+[20.836126] (-) TimerEvent: {}
+[20.937448] (-) TimerEvent: {}
+[21.039621] (-) TimerEvent: {}
+[21.140767] (-) TimerEvent: {}
+[21.242577] (-) TimerEvent: {}
+[21.347869] (-) TimerEvent: {}
+[21.449036] (-) TimerEvent: {}
+[21.551863] (-) TimerEvent: {}
+[21.653518] (-) TimerEvent: {}
+[21.755705] (-) TimerEvent: {}
+[21.856630] (-) TimerEvent: {}
+[21.958144] (-) TimerEvent: {}
+[22.058931] (-) TimerEvent: {}
+[22.159875] (-) TimerEvent: {}
+[22.260903] (-) TimerEvent: {}
+[22.362170] (-) TimerEvent: {}
+[22.463580] (-) TimerEvent: {}
+[22.565799] (-) TimerEvent: {}
+[22.669821] (-) TimerEvent: {}
+[22.772260] (-) TimerEvent: {}
+[22.873891] (-) TimerEvent: {}
+[22.975476] (-) TimerEvent: {}
+[23.079105] (-) TimerEvent: {}
+[23.181625] (-) TimerEvent: {}
+[23.282780] (-) TimerEvent: {}
+[23.383502] (-) TimerEvent: {}
+[23.485357] (-) TimerEvent: {}
+[23.587520] (-) TimerEvent: {}
+[23.690986] (-) TimerEvent: {}
+[23.708101] (autonomous_rover) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/autonomous_node.dir/build.make:76: CMakeFiles/autonomous_node.dir/src/autonomous_node.cpp.o] Error 1\n'}
+[23.709248] (autonomous_rover) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_node.dir/all] Error 2\n'}
+[23.710551] (autonomous_rover) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[23.717589] (autonomous_rover) CommandEnded: {'returncode': 2}
+[23.787363] (autonomous_rover) JobEnded: {'identifier': 'autonomous_rover', 'rc': 2}
+[23.791200] (-) TimerEvent: {}
+[23.793086] (-) EventReactorShutdown: {}

@@ -1,0 +1,28 @@
+[11.740s] Invoking command in '/home/creampi/ros2_ws/build/rover_driver': PYTHONPATH=/home/creampi/ros2_ws/build/rover_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/rover_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/creampi/ros2_ws/build/rover_driver/build --no-deps symlink_data
+[17.757s] running develop
+[21.319s] running egg_info
+[21.321s] creating rover_driver.egg-info
+[21.324s] writing rover_driver.egg-info/PKG-INFO
+[21.326s] writing dependency_links to rover_driver.egg-info/dependency_links.txt
+[21.328s] writing entry points to rover_driver.egg-info/entry_points.txt
+[21.331s] writing requirements to rover_driver.egg-info/requires.txt
+[21.337s] writing top-level names to rover_driver.egg-info/top_level.txt
+[21.345s] writing manifest file 'rover_driver.egg-info/SOURCES.txt'
+[21.352s] reading manifest file 'rover_driver.egg-info/SOURCES.txt'
+[21.364s] writing manifest file 'rover_driver.egg-info/SOURCES.txt'
+[21.384s] running build_ext
+[21.405s] Creating /home/creampi/ros2_ws/install/rover_driver/lib/python3.10/site-packages/rover-driver.egg-link (link to .)
+[21.423s] Installing imu_publisher script to /home/creampi/ros2_ws/install/rover_driver/lib/rover_driver
+[21.437s] Installing motor_driver script to /home/creampi/ros2_ws/install/rover_driver/lib/rover_driver
+[21.458s] Installing test_publisher script to /home/creampi/ros2_ws/install/rover_driver/lib/rover_driver
+[21.470s] 
+[21.481s] Installed /home/creampi/ros2_ws/build/rover_driver
+[21.492s] running symlink_data
+[21.506s] creating /home/creampi/ros2_ws/install/rover_driver/share/ament_index
+[21.520s] creating /home/creampi/ros2_ws/install/rover_driver/share/ament_index/resource_index
+[21.536s] creating /home/creampi/ros2_ws/install/rover_driver/share/ament_index/resource_index/packages
+[21.549s] symbolically linking /home/creampi/ros2_ws/build/rover_driver/resource/rover_driver -> /home/creampi/ros2_ws/install/rover_driver/share/ament_index/resource_index/packages
+[21.565s] symbolically linking /home/creampi/ros2_ws/build/rover_driver/package.xml -> /home/creampi/ros2_ws/install/rover_driver/share/rover_driver
+[21.572s] creating /home/creampi/ros2_ws/install/rover_driver/share/rover_driver/launch
+[21.580s] symbolically linking /home/creampi/ros2_ws/build/rover_driver/launch/rover.launch.py -> /home/creampi/ros2_ws/install/rover_driver/share/rover_driver/launch
+[21.597s] Invoked command in '/home/creampi/ros2_ws/build/rover_driver' returned '0': PYTHONPATH=/home/creampi/ros2_ws/build/rover_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/rover_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/creampi/ros2_ws/build/rover_driver/build --no-deps symlink_data

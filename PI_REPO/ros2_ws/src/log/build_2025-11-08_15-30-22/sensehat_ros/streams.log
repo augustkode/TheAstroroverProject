@@ -1,0 +1,46 @@
+[5.301s] Invoking command in '/home/creampi/ros2_ws/src/sensehat_ros': PYTHONPATH=/home/creampi/ros2_ws/src/build/sensehat_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensehat_ros build --build-base /home/creampi/ros2_ws/src/build/sensehat_ros/build install --record /home/creampi/ros2_ws/src/build/sensehat_ros/install.log --single-version-externally-managed install_data
+[7.876s] running egg_info
+[7.890s] creating ../build/sensehat_ros/sensehat_ros.egg-info
+[7.893s] writing ../build/sensehat_ros/sensehat_ros.egg-info/PKG-INFO
+[7.896s] writing dependency_links to ../build/sensehat_ros/sensehat_ros.egg-info/dependency_links.txt
+[7.898s] writing entry points to ../build/sensehat_ros/sensehat_ros.egg-info/entry_points.txt
+[7.903s] writing requirements to ../build/sensehat_ros/sensehat_ros.egg-info/requires.txt
+[7.914s] writing top-level names to ../build/sensehat_ros/sensehat_ros.egg-info/top_level.txt
+[7.917s] writing manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'
+[7.947s] reading manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'
+[7.951s] adding license file 'LICENSE'
+[7.956s] writing manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'
+[7.971s] running build
+[7.973s] running build_py
+[7.975s] creating /home/creampi/ros2_ws/src/build/sensehat_ros/build
+[7.976s] creating /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib
+[7.978s] creating /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros
+[7.980s] copying sensehat_ros/__init__.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros
+[7.983s] copying sensehat_ros/sensehat_display_handler.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros
+[7.985s] copying sensehat_ros/sensehat_publisher.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros
+[7.999s] running install
+[8.003s] running install_lib
+[8.009s] creating /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros
+[8.011s] copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/__init__.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros
+[8.014s] copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/sensehat_display_handler.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros
+[8.018s] copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/sensehat_publisher.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros
+[8.035s] byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/__init__.py to __init__.cpython-310.pyc
+[8.038s] byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/sensehat_display_handler.py to sensehat_display_handler.cpython-310.pyc
+[8.042s] byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/sensehat_publisher.py to sensehat_publisher.cpython-310.pyc
+[8.070s] running install_data
+[8.071s] creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index
+[8.072s] creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index
+[8.073s] creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index/packages
+[8.075s] copying resource/sensehat_ros -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index/packages
+[8.076s] copying package.xml -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros
+[8.077s] creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/launch
+[8.078s] copying launch/sensehat_launch.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/launch
+[8.094s] creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/config
+[8.095s] copying config/sensehat_config.yaml -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/config
+[8.102s] running install_egg_info
+[8.124s] Copying ../build/sensehat_ros/sensehat_ros.egg-info to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros-0.0.0-py3.10.egg-info
+[8.137s] running install_scripts
+[8.379s] Installing sensehat_node script to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/sensehat_ros
+[8.380s] Installing sensehat_publisher script to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/sensehat_ros
+[8.394s] writing list of installed files to '/home/creampi/ros2_ws/src/build/sensehat_ros/install.log'
+[8.810s] Invoked command in '/home/creampi/ros2_ws/src/sensehat_ros' returned '0': PYTHONPATH=/home/creampi/ros2_ws/src/build/sensehat_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/sensehat_ros build --build-base /home/creampi/ros2_ws/src/build/sensehat_ros/build install --record /home/creampi/ros2_ws/src/build/sensehat_ros/install.log --single-version-externally-managed install_data

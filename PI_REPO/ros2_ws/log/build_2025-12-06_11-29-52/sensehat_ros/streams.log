@@ -1,0 +1,29 @@
+[13.773s] Invoking command in '/home/creampi/ros2_ws/build/sensehat_ros': PYTHONPATH=/home/creampi/ros2_ws/build/sensehat_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/creampi/ros2_ws/build/sensehat_ros/build --no-deps symlink_data
+[18.943s] running develop
+[23.320s] running egg_info
+[23.323s] creating sensehat_ros.egg-info
+[23.327s] writing sensehat_ros.egg-info/PKG-INFO
+[23.330s] writing dependency_links to sensehat_ros.egg-info/dependency_links.txt
+[23.336s] writing entry points to sensehat_ros.egg-info/entry_points.txt
+[23.344s] writing requirements to sensehat_ros.egg-info/requires.txt
+[23.348s] writing top-level names to sensehat_ros.egg-info/top_level.txt
+[23.358s] writing manifest file 'sensehat_ros.egg-info/SOURCES.txt'
+[23.369s] reading manifest file 'sensehat_ros.egg-info/SOURCES.txt'
+[23.382s] writing manifest file 'sensehat_ros.egg-info/SOURCES.txt'
+[23.399s] running build_ext
+[23.429s] Creating /home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages/sensehat-ros.egg-link (link to .)
+[23.443s] Installing sensehat_node script to /home/creampi/ros2_ws/install/sensehat_ros/lib/sensehat_ros
+[23.458s] Installing sensehat_publisher script to /home/creampi/ros2_ws/install/sensehat_ros/lib/sensehat_ros
+[23.471s] 
+[23.485s] Installed /home/creampi/ros2_ws/build/sensehat_ros
+[23.494s] running symlink_data
+[23.508s] creating /home/creampi/ros2_ws/install/sensehat_ros/share/ament_index
+[23.531s] creating /home/creampi/ros2_ws/install/sensehat_ros/share/ament_index/resource_index
+[23.536s] creating /home/creampi/ros2_ws/install/sensehat_ros/share/ament_index/resource_index/packages
+[23.541s] symbolically linking /home/creampi/ros2_ws/build/sensehat_ros/resource/sensehat_ros -> /home/creampi/ros2_ws/install/sensehat_ros/share/ament_index/resource_index/packages
+[23.545s] symbolically linking /home/creampi/ros2_ws/build/sensehat_ros/package.xml -> /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros
+[23.600s] creating /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros/launch
+[23.610s] symbolically linking /home/creampi/ros2_ws/build/sensehat_ros/launch/sensehat_launch.py -> /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros/launch
+[23.631s] creating /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros/config
+[23.638s] symbolically linking /home/creampi/ros2_ws/build/sensehat_ros/config/sensehat_config.yaml -> /home/creampi/ros2_ws/install/sensehat_ros/share/sensehat_ros/config
+[23.641s] Invoked command in '/home/creampi/ros2_ws/build/sensehat_ros' returned '0': PYTHONPATH=/home/creampi/ros2_ws/build/sensehat_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/creampi/ros2_ws/build/sensehat_ros/build --no-deps symlink_data

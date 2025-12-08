@@ -1,0 +1,25 @@
+[1.375s] Invoking command in '/home/creampi/ros2_ws/build/carto_localization': /usr/bin/cmake --build /home/creampi/ros2_ws/build/carto_localization -- -j4 -l4
+[1.869s] Invoked command in '/home/creampi/ros2_ws/build/carto_localization' returned '0': /usr/bin/cmake --build /home/creampi/ros2_ws/build/carto_localization -- -j4 -l4
+[1.947s] Invoking command in '/home/creampi/ros2_ws/build/carto_localization': /usr/bin/cmake --install /home/creampi/ros2_ws/build/carto_localization
+[2.008s] -- Install configuration: ""
+[2.010s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/launch
+[2.015s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/launch/cartographer_localization.launch.py
+[2.016s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/launch/tf.launch.py
+[2.018s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/config
+[2.022s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/config/cartographer_localization.lua
+[2.025s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/ament_index/resource_index/package_run_dependencies/carto_localization
+[2.029s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/ament_index/resource_index/parent_prefix_path/carto_localization
+[2.033s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/environment/ament_prefix_path.sh
+[2.035s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/environment/ament_prefix_path.dsv
+[2.037s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/environment/path.sh
+[2.039s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/environment/path.dsv
+[2.041s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/local_setup.bash
+[2.043s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/local_setup.sh
+[2.045s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/local_setup.zsh
+[2.048s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/local_setup.dsv
+[2.050s] -- Installing: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/package.dsv
+[2.055s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/ament_index/resource_index/packages/carto_localization
+[2.059s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/cmake/carto_localizationConfig.cmake
+[2.062s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/cmake/carto_localizationConfig-version.cmake
+[2.064s] -- Up-to-date: /home/creampi/ros2_ws/install/carto_localization/share/carto_localization/package.xml
+[2.078s] Invoked command in '/home/creampi/ros2_ws/build/carto_localization' returned '0': /usr/bin/cmake --install /home/creampi/ros2_ws/build/carto_localization

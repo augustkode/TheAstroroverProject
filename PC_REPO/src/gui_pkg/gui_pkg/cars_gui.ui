@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1285</width>
+    <height>845</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget {
+    background-color: #2b0f0f; /* mørk rødbrun, som marsjord */
+    color: #ffcc99; /* sandfarget tekst */
+    font-family: 'Orbitron', 'Share Tech Mono', sans-serif;
+    font-size: 14pt;
+}
+
+/* Mars-knapper */
+QPushButton {
+    background-color: #5c1e1e;
+    color: #ff6f3c;
+    border: 2px solid #ff6f3c;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 6px #ff6f3c;
+    box-shadow: 0 0 12px #ff6f3c;
+}
+
+QPushButton:hover {
+    background-color: #ff6f3c;
+    color: #2b0f0f;
+    box-shadow: 0 0 20px #ff6f3c;
+}
+
+QPushButton:pressed {
+    background-color: #ff3c1f;
+    box-shadow: inset 0 0 10px #ff6f3c;
+}
+
+/* Labels */
+QLabel {
+    color: #ffcc99;
+    font-size: 16pt;
+    text-shadow: 0 0 8px #ffcc99;
+}
+
+/* GroupBox styling */
+QGroupBox {
+    border: 2px solid #ff6f3c;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: #ff6f3c;
+    font-weight: bold;
+}
+
+QGroupBox::title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center;
+    padding: 0 3px;
+}
+
+/* Logg-terminal */
+QTextEdit {
+    background-color: #1a0a0a;
+    color: #ffcc99;
+    font-family: 'Share Tech Mono';
+    font-size: 12pt;
+    border: 1px solid #ff6f3c;
+}
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>2721</width>
+      <height>861</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="GUI">
+     <attribute name="title">
+      <string>GUI</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>420</y>
+        <width>341</width>
+        <height>111</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>LOG</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="btnOpenLog">
+         <property name="text">
+          <string>OPEN LOG</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>540</y>
+        <width>451</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>ARDUINO SENSOR MODE</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="1" column="1">
+        <widget class="QPushButton" name="btnOn">
+         <property name="text">
+          <string>ON</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="2">
+        <widget class="QPushButton" name="btnOff">
+         <property name="text">
+          <string>OFF</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btnAuto">
+         <property name="text">
+          <string>AUTO</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <widget class="QPushButton" name="btnGuard">
+         <property name="text">
+          <string>GUARD</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="lblVideoStream">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>0</y>
+        <width>911</width>
+        <height>541</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: black;</string>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>341</width>
+        <height>411</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>STATUS</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="lblTemperature">
+         <property name="text">
+          <string>Temperatur: lblTemp</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblHum">
+         <property name="text">
+          <string>Luftfuktighet: lblHum</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblLedStatus">
+         <property name="text">
+          <string>LED: lblLedStatus</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblArduinoMode">
+         <property name="text">
+          <string>Arduino Mode: lblArduinoMode</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblDrivingMode">
+         <property name="text">
+          <string>Driving Mode: lblDrivingMode</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>540</y>
+        <width>341</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>CAMERA CONTROLLER</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btnTakePhoto">
+         <property name="minimumSize">
+          <size>
+           <width>0</width>
+           <height>110</height>
+          </size>
+         </property>
+         <property name="text">
+          <string>TAKE PHOTO</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_5">
+      <property name="geometry">
+       <rect>
+        <x>820</x>
+        <y>540</y>
+        <width>451</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>DRIVING MODE</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="1" colspan="2">
+        <widget class="QPushButton" name="btnControlDrivingMode">
+         <property name="text">
+          <string>JOYSTICK</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1" colspan="2">
+        <widget class="QPushButton" name="btnAutonomousDrivingMode">
+         <property name="text">
+          <string>AUTONOMOUS</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QTextEdit" name="txtLog">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>700</y>
+        <width>1261</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>SYSTEM STATUS</string>
+     </attribute>
+     <widget class="QGroupBox" name="sense_hat_group_box">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>10</y>
+        <width>481</width>
+        <height>161</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>NODE SENSE HAT w/ IMU</string>
+      </property>
+      <widget class="QLabel" name="lblTemperature_Sense_HAT">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>461</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Engine temperature: lblTemperature_Sense_HAT</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lblHumidity_Sense_HAT">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>461</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>319</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Engine humidity: lblHumidity_Sense_HAT</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="lblPressuseSenseHAT">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>461</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>319</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Pressure: lblPresure</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="sense_hat_group_box_2">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>330</y>
+        <width>361</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>RASPBERRY PI4</string>
+      </property>
+      <widget class="QLabel" name="lblTemperatureRPi4Processor">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>341</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>RPi4 processor temperature: lblTemperature_Sense_HAT</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_6">
+      <property name="geometry">
+       <rect>
+        <x>860</x>
+        <y>310</y>
+        <width>401</width>
+        <height>141</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>UART ARDUINO W/ SENSOR STATUS</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="lblTemperature_2">
+         <property name="text">
+          <string>Teemperatur: lblTemp</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblHum_2">
+         <property name="text">
+          <string>Luftfuktighet: lblHum</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="lblLedStatus_2">
+         <property name="text">
+          <string>LED: lblLedStatus</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="sense_hat_group_box_3">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>700</y>
+        <width>271</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>IR CAMERA</string>
+      </property>
+      <widget class="QLabel" name="lblCamStatus">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>251</width>
+         <height>61</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>CAM: lblCamStatus</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_7">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>340</y>
+        <width>341</width>
+        <height>81</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="title">
+       <string>TOPIC /DRIVING_MODE</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QLabel" name="lblDrivingMode_2">
+         <property name="text">
+          <string>Driving Mode: lblDrivingMode</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGraphicsView" name="graphicsBackground">
+      <property name="geometry">
+       <rect>
+        <x>5</x>
+        <y>1</y>
+        <width>1271</width>
+        <height>801</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="sense_hat_group_box_4">
+      <property name="geometry">
+       <rect>
+        <x>980</x>
+        <y>700</y>
+        <width>281</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>LiDAR Node</string>
+      </property>
+      <widget class="QLabel" name="lblLidarStatus_3">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>241</width>
+         <height>67</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>LiDAR: lblLidarStatus</string>
+       </property>
+      </widget>
+     </widget>
+     <zorder>graphicsBackground</zorder>
+     <zorder>sense_hat_group_box</zorder>
+     <zorder>sense_hat_group_box_2</zorder>
+     <zorder>groupBox_6</zorder>
+     <zorder>sense_hat_group_box_3</zorder>
+     <zorder>groupBox_7</zorder>
+     <zorder>sense_hat_group_box_4</zorder>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

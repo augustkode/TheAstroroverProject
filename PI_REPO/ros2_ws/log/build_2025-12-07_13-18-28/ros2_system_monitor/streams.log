@@ -1,0 +1,55 @@
+[0.092s] Invoking command in '/home/creampi/ros2_ws/build/ros2_system_monitor': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/ros2_system_monitor -- -j4 -l4
+[0.478s] Built target ament_cmake_python_symlink_ros2_system_monitor
+[2.194s] running egg_info
+[2.198s] writing ros2_system_monitor.egg-info/PKG-INFO
+[2.199s] writing dependency_links to ros2_system_monitor.egg-info/dependency_links.txt
+[2.200s] writing top-level names to ros2_system_monitor.egg-info/top_level.txt
+[2.210s] reading manifest file 'ros2_system_monitor.egg-info/SOURCES.txt'
+[2.214s] writing manifest file 'ros2_system_monitor.egg-info/SOURCES.txt'
+[2.392s] Built target ament_cmake_python_build_ros2_system_monitor_egg
+[2.456s] Invoked command in '/home/creampi/ros2_ws/build/ros2_system_monitor' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/ros2_system_monitor -- -j4 -l4
+[2.467s] Invoking command in '/home/creampi/ros2_ws/build/ros2_system_monitor': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover /usr/bin/cmake --install /home/creampi/ros2_ws/build/ros2_system_monitor
+[2.497s] -- Install configuration: ""
+[2.500s] -- Execute custom install script
+[2.504s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/pythonpath.sh
+[2.505s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/pythonpath.dsv
+[2.507s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor-0.2.2-py3.10.egg-info/PKG-INFO
+[2.512s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor-0.2.2-py3.10.egg-info/SOURCES.txt
+[2.512s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor-0.2.2-py3.10.egg-info/dependency_links.txt
+[2.513s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor-0.2.2-py3.10.egg-info/top_level.txt
+[2.518s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/__init__.py
+[2.520s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/cpu_monitor.py
+[2.522s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/hdd_monitor.py
+[2.524s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/mem_monitor.py
+[2.525s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/net_monitor.py
+[2.527s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/ntp_monitor.py
+[2.529s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor/utilities.py
+[2.533s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/config/system_monitor.yaml
+[2.537s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/cpu_monitor_node.py
+[2.539s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/hdd_monitor_node.py
+[2.541s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/mem_monitor_node.py
+[2.543s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/net_monitor_node.py
+[2.545s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/scripts/ntp_monitor_node.py
+[2.549s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/launch/system_monitor.launch.py
+[2.551s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/cpu_monitor_node.py
+[2.554s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/hdd_monitor_node.py
+[2.555s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/mem_monitor_node.py
+[2.557s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/net_monitor_node.py
+[2.558s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/lib/ros2_system_monitor/ntp_monitor_node.py
+[2.561s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ament_index/resource_index/package_run_dependencies/ros2_system_monitor
+[2.564s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ament_index/resource_index/parent_prefix_path/ros2_system_monitor
+[2.566s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/ament_prefix_path.sh
+[2.567s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/ament_prefix_path.dsv
+[2.568s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/path.sh
+[2.569s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/environment/path.dsv
+[2.571s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/local_setup.bash
+[2.573s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/local_setup.sh
+[2.576s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/local_setup.zsh
+[2.578s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/local_setup.dsv
+[2.579s] -- Symlinking: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/package.dsv
+[2.616s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ament_index/resource_index/packages/ros2_system_monitor
+[2.619s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/cmake/ros2_system_monitorConfig.cmake
+[2.621s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/cmake/ros2_system_monitorConfig-version.cmake
+[2.623s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ros2_system_monitor/share/ros2_system_monitor/package.xml
+[2.870s] Listing '/home/creampi/ros2_ws/install/ros2_system_monitor/local/lib/python3.10/dist-packages/ros2_system_monitor'...
+[2.916s] Invoked command in '/home/creampi/ros2_ws/build/ros2_system_monitor' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover:/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover /usr/bin/cmake --install /home/creampi/ros2_ws/build/ros2_system_monitor

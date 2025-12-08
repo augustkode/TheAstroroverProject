@@ -1,0 +1,42 @@
+[0.227s] Invoking command in '/home/sp/PC_REPO/build/gui_pkg': PYTHONPATH=/home/sp/PC_REPO/build/gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sp/PC_REPO/build/gui_pkg/build
+[0.321s] running develop
+[0.373s] Removing /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui-pkg.egg-link (link to .)
+[0.383s] Invoked command in '/home/sp/PC_REPO/build/gui_pkg' returned '0': PYTHONPATH=/home/sp/PC_REPO/build/gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/sp/PC_REPO/build/gui_pkg/build
+[0.384s] Invoking command in '/home/sp/PC_REPO/src/gui_pkg': PYTHONPATH=/home/sp/PC_REPO/build/gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gui_pkg build --build-base /home/sp/PC_REPO/build/gui_pkg/build install --record /home/sp/PC_REPO/build/gui_pkg/install.log --single-version-externally-managed
+[0.470s] running egg_info
+[0.470s] writing ../../build/gui_pkg/gui_pkg.egg-info/PKG-INFO
+[0.470s] writing dependency_links to ../../build/gui_pkg/gui_pkg.egg-info/dependency_links.txt
+[0.470s] writing entry points to ../../build/gui_pkg/gui_pkg.egg-info/entry_points.txt
+[0.470s] writing requirements to ../../build/gui_pkg/gui_pkg.egg-info/requires.txt
+[0.470s] writing top-level names to ../../build/gui_pkg/gui_pkg.egg-info/top_level.txt
+[0.471s] reading manifest file '../../build/gui_pkg/gui_pkg.egg-info/SOURCES.txt'
+[0.471s] writing manifest file '../../build/gui_pkg/gui_pkg.egg-info/SOURCES.txt'
+[0.471s] running build
+[0.471s] running build_py
+[0.471s] creating /home/sp/PC_REPO/build/gui_pkg/build
+[0.471s] creating /home/sp/PC_REPO/build/gui_pkg/build/lib
+[0.471s] creating /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg
+[0.471s] copying gui_pkg/car_sim.py -> /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg
+[0.472s] copying gui_pkg/ros2_gui_ekte.py -> /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg
+[0.472s] copying gui_pkg/cars_gui.py -> /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg
+[0.472s] copying gui_pkg/__init__.py -> /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg
+[0.472s] copying gui_pkg/ros2_gui.py -> /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg
+[0.472s] running install
+[0.472s] running install_lib
+[0.473s] creating /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg
+[0.473s] copying /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg/car_sim.py -> /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg
+[0.473s] copying /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg/ros2_gui_ekte.py -> /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg
+[0.473s] copying /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg/cars_gui.py -> /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg
+[0.473s] copying /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg/__init__.py -> /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg
+[0.473s] copying /home/sp/PC_REPO/build/gui_pkg/build/lib/gui_pkg/ros2_gui.py -> /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg
+[0.473s] byte-compiling /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg/car_sim.py to car_sim.cpython-310.pyc
+[0.473s] byte-compiling /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg/ros2_gui_ekte.py to ros2_gui_ekte.cpython-310.pyc
+[0.475s] byte-compiling /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg/cars_gui.py to cars_gui.cpython-310.pyc
+[0.475s] byte-compiling /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg/__init__.py to __init__.cpython-310.pyc
+[0.475s] byte-compiling /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg/ros2_gui.py to ros2_gui.cpython-310.pyc
+[0.476s] running install_egg_info
+[0.477s] Copying ../../build/gui_pkg/gui_pkg.egg-info to /home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages/gui_pkg-0.0.1-py3.10.egg-info
+[0.477s] running install_scripts
+[0.486s] Installing gui_node script to /home/sp/PC_REPO/install/gui_pkg/lib/gui_pkg
+[0.486s] writing list of installed files to '/home/sp/PC_REPO/build/gui_pkg/install.log'
+[0.495s] Invoked command in '/home/sp/PC_REPO/src/gui_pkg' returned '0': PYTHONPATH=/home/sp/PC_REPO/build/gui_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sp/PC_REPO/install/gui_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/gui_pkg build --build-base /home/sp/PC_REPO/build/gui_pkg/build install --record /home/sp/PC_REPO/build/gui_pkg/install.log --single-version-externally-managed

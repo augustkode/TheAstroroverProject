@@ -1,0 +1,17 @@
+[8.014s] Invoking command in '/home/creampi/ros2_ws/build/arduino_bridge': PYTHONPATH=/home/creampi/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/creampi/ros2_ws/build/arduino_bridge/build --no-deps symlink_data
+[13.287s] running develop
+[18.044s] running egg_info
+[18.046s] writing arduino_bridge.egg-info/PKG-INFO
+[18.048s] writing dependency_links to arduino_bridge.egg-info/dependency_links.txt
+[18.049s] writing entry points to arduino_bridge.egg-info/entry_points.txt
+[18.053s] writing requirements to arduino_bridge.egg-info/requires.txt
+[18.054s] writing top-level names to arduino_bridge.egg-info/top_level.txt
+[18.066s] reading manifest file 'arduino_bridge.egg-info/SOURCES.txt'
+[18.092s] writing manifest file 'arduino_bridge.egg-info/SOURCES.txt'
+[18.095s] running build_ext
+[18.095s] Creating /home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages/arduino-bridge.egg-link (link to .)
+[18.102s] Installing arduino_bridge_node script to /home/creampi/ros2_ws/install/arduino_bridge/lib/arduino_bridge
+[18.104s] 
+[18.105s] Installed /home/creampi/ros2_ws/build/arduino_bridge
+[18.106s] running symlink_data
+[23.308s] Invoked command in '/home/creampi/ros2_ws/build/arduino_bridge' returned '0': PYTHONPATH=/home/creampi/ros2_ws/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/creampi/ros2_ws/build/arduino_bridge/build --no-deps symlink_data

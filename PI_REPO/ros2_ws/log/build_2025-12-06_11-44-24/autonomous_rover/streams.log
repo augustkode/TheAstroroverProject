@@ -1,0 +1,50 @@
+[0.087s] Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/creampi/ros2_ws/src/autonomous_rover -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/autonomous_rover
+[0.429s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.037s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.117s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[1.357s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.374s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.412s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.486s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.579s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.795s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.806s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.730s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.055s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.227s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.638s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.638s] -- Configured cppcheck include dirs: 
+[3.639s] -- Configured cppcheck exclude dirs and/or files: 
+[3.643s] -- Added test 'lint_cmake' to check CMake code style
+[3.651s] -- Added test 'uncrustify' to check C / C++ code style
+[3.652s] -- Configured uncrustify additional arguments: 
+[3.656s] -- Added test 'xmllint' to check XML markup files
+[3.672s] -- Configuring done
+[3.789s] -- Generating done
+[3.823s] -- Build files have been written to: /home/creampi/ros2_ws/build/autonomous_rover
+[3.863s] Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/creampi/ros2_ws/src/autonomous_rover -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/autonomous_rover
+[3.873s] Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/creampi/ros2_ws/build/autonomous_rover -- -j4 -l4
+[4.087s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_node.dir/src/autonomous_node.cpp.o[0m
+[37.771s] [100%] [32m[1mLinking CXX executable autonomous_node[0m
+[39.870s] [100%] Built target autonomous_node
+[39.908s] Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/creampi/ros2_ws/build/autonomous_rover -- -j4 -l4
+[39.950s] Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/creampi/ros2_ws/build/autonomous_rover
+[39.978s] -- Install configuration: ""
+[39.980s] -- Execute custom install script
+[39.982s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/lib/autonomous_rover/autonomous_node
+[40.013s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/ament_index/resource_index/package_run_dependencies/autonomous_rover
+[40.044s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/ament_index/resource_index/parent_prefix_path/autonomous_rover
+[40.075s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/environment/ament_prefix_path.sh
+[40.106s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/environment/ament_prefix_path.dsv
+[40.138s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/environment/path.sh
+[40.170s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/environment/path.dsv
+[40.204s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/local_setup.bash
+[40.235s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/local_setup.sh
+[40.267s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/local_setup.zsh
+[40.299s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/local_setup.dsv
+[40.331s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/package.dsv
+[40.363s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/ament_index/resource_index/packages/autonomous_rover
+[40.395s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/cmake/autonomous_roverConfig.cmake
+[40.427s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/cmake/autonomous_roverConfig-version.cmake
+[40.458s] -- Symlinking: /home/creampi/ros2_ws/install/autonomous_rover/share/autonomous_rover/package.xml
+[40.498s] Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/creampi/ros2_ws/build/autonomous_rover

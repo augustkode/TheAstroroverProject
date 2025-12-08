@@ -1,0 +1,22 @@
+[0.215s] Invoking command in '/home/sp/PC_REPO/src/rover_control': PYTHONPATH=/home/sp/PC_REPO/build/rover_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sp/PC_REPO/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_control build --build-base /home/sp/PC_REPO/build/rover_control/build install --record /home/sp/PC_REPO/build/rover_control/install.log --single-version-externally-managed install_data
+[0.296s] running egg_info
+[0.296s] writing ../../build/rover_control/rover_control.egg-info/PKG-INFO
+[0.297s] writing dependency_links to ../../build/rover_control/rover_control.egg-info/dependency_links.txt
+[0.297s] writing entry points to ../../build/rover_control/rover_control.egg-info/entry_points.txt
+[0.297s] writing requirements to ../../build/rover_control/rover_control.egg-info/requires.txt
+[0.297s] writing top-level names to ../../build/rover_control/rover_control.egg-info/top_level.txt
+[0.297s] reading manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'
+[0.298s] writing manifest file '../../build/rover_control/rover_control.egg-info/SOURCES.txt'
+[0.298s] running build
+[0.298s] running build_py
+[0.298s] running install
+[0.298s] running install_lib
+[0.298s] running install_data
+[0.298s] copying launch/rover_teleop_x56.launch.py -> /home/sp/PC_REPO/install/rover_control/share/rover_control/launch
+[0.299s] running install_egg_info
+[0.299s] removing '/home/sp/PC_REPO/install/rover_control/lib/python3.10/site-packages/rover_control-0.0.1-py3.10.egg-info' (and everything under it)
+[0.299s] Copying ../../build/rover_control/rover_control.egg-info to /home/sp/PC_REPO/install/rover_control/lib/python3.10/site-packages/rover_control-0.0.1-py3.10.egg-info
+[0.300s] running install_scripts
+[0.308s] Installing motor_driver script to /home/sp/PC_REPO/install/rover_control/lib/rover_control
+[0.308s] writing list of installed files to '/home/sp/PC_REPO/build/rover_control/install.log'
+[0.317s] Invoked command in '/home/sp/PC_REPO/src/rover_control' returned '0': PYTHONPATH=/home/sp/PC_REPO/build/rover_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sp/PC_REPO/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/rover_control build --build-base /home/sp/PC_REPO/build/rover_control/build install --record /home/sp/PC_REPO/build/rover_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,4 @@
+[console_scripts]
+sensehat_node = sensehat_ros.sensehat_node:main
+sensehat_publisher = sensehat_ros.sensehat_publisher:main
+

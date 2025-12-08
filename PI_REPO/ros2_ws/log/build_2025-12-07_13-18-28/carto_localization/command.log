@@ -1,0 +1,4 @@
+Invoking command in '/home/creampi/ros2_ws/build/carto_localization': /usr/bin/cmake --build /home/creampi/ros2_ws/build/carto_localization -- -j4 -l4
+Invoked command in '/home/creampi/ros2_ws/build/carto_localization' returned '0': /usr/bin/cmake --build /home/creampi/ros2_ws/build/carto_localization -- -j4 -l4
+Invoking command in '/home/creampi/ros2_ws/build/carto_localization': /usr/bin/cmake --install /home/creampi/ros2_ws/build/carto_localization
+Invoked command in '/home/creampi/ros2_ws/build/carto_localization' returned '0': /usr/bin/cmake --install /home/creampi/ros2_ws/build/carto_localization

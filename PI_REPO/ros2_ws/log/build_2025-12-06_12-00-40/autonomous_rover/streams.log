@@ -1,0 +1,11 @@
+[0.061s] Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/autonomous_rover -- -j4 -l4
+[0.266s] [35m[1mConsolidate compiler generated dependencies of target autonomous_node[0m
+[0.368s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_node.dir/src/autonomous_node.cpp.o[0m
+[11.498s] [01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:[m[K In member function ‘[01m[Kvoid Autopilot::publish_cmd()[m[K’:
+[11.499s] [01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:73:63:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[11.499s]    73 |         else if(front < 0.30 && (front_left < front_right) || [01;31m[K)[m[K{
+[11.500s]       |                                                               [01;31m[K^[m[K
+[21.521s] gmake[2]: *** [CMakeFiles/autonomous_node.dir/build.make:76: CMakeFiles/autonomous_node.dir/src/autonomous_node.cpp.o] Error 1
+[21.522s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_node.dir/all] Error 2
+[21.523s] gmake: *** [Makefile:146: all] Error 2
+[21.532s] Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '2': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/autonomous_rover -- -j4 -l4

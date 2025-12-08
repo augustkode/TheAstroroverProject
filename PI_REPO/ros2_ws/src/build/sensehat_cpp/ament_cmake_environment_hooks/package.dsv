@@ -1,0 +1,4 @@
+source;share/sensehat_cpp/local_setup.bash
+source;share/sensehat_cpp/local_setup.dsv
+source;share/sensehat_cpp/local_setup.sh
+source;share/sensehat_cpp/local_setup.zsh

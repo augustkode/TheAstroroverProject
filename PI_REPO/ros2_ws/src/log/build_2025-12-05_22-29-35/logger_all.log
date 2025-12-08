@@ -1,0 +1,538 @@
+[1.218s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ldlidar_stl_ros2']
+[1.218s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ldlidar_stl_ros2'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa536cb20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa54da620>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa54da620>>)
+[3.461s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.462s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.463s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.465s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/creampi/ros2_ws/src'
+[3.466s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.467s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.468s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.469s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.594s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.595s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.596s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.598s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extensions ['ignore', 'ignore_ament_install']
+[3.599s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extension 'ignore'
+[3.600s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extension 'ignore_ament_install'
+[3.600s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extensions ['colcon_pkg']
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extension 'colcon_pkg'
+[3.601s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extensions ['colcon_meta']
+[3.602s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extension 'colcon_meta'
+[3.602s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extensions ['ros']
+[3.603s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extension 'ros'
+[3.604s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extensions ['cmake', 'python']
+[3.604s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extension 'cmake'
+[3.604s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extension 'python'
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extensions ['python_setup_py']
+[3.605s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover) by extension 'python_setup_py'
+[3.607s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/build) by extensions ['ignore', 'ignore_ament_install']
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/build) by extension 'ignore'
+[3.608s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/build) ignored
+[3.610s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extensions ['ignore', 'ignore_ament_install']
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extension 'ignore'
+[3.611s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extension 'ignore_ament_install'
+[3.612s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extensions ['colcon_pkg']
+[3.612s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extension 'colcon_pkg'
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extensions ['colcon_meta']
+[3.613s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extension 'colcon_meta'
+[3.614s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extensions ['ros']
+[3.614s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extension 'ros'
+[3.615s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extensions ['cmake', 'python']
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extension 'cmake'
+[3.616s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extension 'python'
+[3.617s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extensions ['python_setup_py']
+[3.617s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit) by extension 'python_setup_py'
+[3.619s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extensions ['ignore', 'ignore_ament_install']
+[3.619s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extension 'ignore'
+[3.620s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extension 'ignore_ament_install'
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extensions ['colcon_pkg']
+[3.621s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extension 'colcon_pkg'
+[3.622s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extensions ['colcon_meta']
+[3.622s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extension 'colcon_meta'
+[3.623s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extensions ['ros']
+[3.623s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extension 'ros'
+[3.624s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extensions ['cmake', 'python']
+[3.625s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extension 'cmake'
+[3.625s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extension 'python'
+[3.626s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extensions ['python_setup_py']
+[3.626s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include) by extension 'python_setup_py'
+[3.628s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extensions ['ignore', 'ignore_ament_install']
+[3.629s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extension 'ignore'
+[3.629s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extension 'ignore_ament_install'
+[3.630s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extensions ['colcon_pkg']
+[3.631s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extension 'colcon_pkg'
+[3.632s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extensions ['colcon_meta']
+[3.632s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extension 'colcon_meta'
+[3.633s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extensions ['ros']
+[3.634s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extension 'ros'
+[3.635s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extensions ['cmake', 'python']
+[3.636s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extension 'cmake'
+[3.637s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extension 'python'
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extensions ['python_setup_py']
+[3.638s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/hardware) by extension 'python_setup_py'
+[3.641s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extensions ['ignore', 'ignore_ament_install']
+[3.642s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extension 'ignore'
+[3.643s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extension 'ignore_ament_install'
+[3.644s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extensions ['colcon_pkg']
+[3.645s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extension 'colcon_pkg'
+[3.646s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extensions ['colcon_meta']
+[3.646s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extension 'colcon_meta'
+[3.648s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extensions ['ros']
+[3.648s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extension 'ros'
+[3.650s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extensions ['cmake', 'python']
+[3.651s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extension 'cmake'
+[3.651s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extension 'python'
+[3.652s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extensions ['python_setup_py']
+[3.653s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/include/logic) by extension 'python_setup_py'
+[3.655s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extensions ['ignore', 'ignore_ament_install']
+[3.656s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extension 'ignore'
+[3.657s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extension 'ignore_ament_install'
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extensions ['colcon_pkg']
+[3.659s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extension 'colcon_pkg'
+[3.660s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extensions ['colcon_meta']
+[3.661s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extension 'colcon_meta'
+[3.662s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extensions ['ros']
+[3.663s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extension 'ros'
+[3.664s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extensions ['cmake', 'python']
+[3.665s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extension 'cmake'
+[3.666s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extension 'python'
+[3.667s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extensions ['python_setup_py']
+[3.667s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/lib) by extension 'python_setup_py'
+[3.669s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extensions ['ignore', 'ignore_ament_install']
+[3.671s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extension 'ignore'
+[3.672s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extension 'ignore_ament_install'
+[3.673s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extensions ['colcon_pkg']
+[3.674s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extension 'colcon_pkg'
+[3.675s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extensions ['colcon_meta']
+[3.675s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extension 'colcon_meta'
+[3.676s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extensions ['ros']
+[3.677s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extension 'ros'
+[3.679s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extensions ['cmake', 'python']
+[3.680s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extension 'cmake'
+[3.680s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extension 'python'
+[3.681s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extensions ['python_setup_py']
+[3.682s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src) by extension 'python_setup_py'
+[3.685s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extensions ['ignore', 'ignore_ament_install']
+[3.686s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extension 'ignore'
+[3.687s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extension 'ignore_ament_install'
+[3.688s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extensions ['colcon_pkg']
+[3.689s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extension 'colcon_pkg'
+[3.690s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extensions ['colcon_meta']
+[3.691s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extension 'colcon_meta'
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extensions ['ros']
+[3.692s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extension 'ros'
+[3.694s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extensions ['cmake', 'python']
+[3.695s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extension 'cmake'
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extension 'python'
+[3.696s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extensions ['python_setup_py']
+[3.697s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/src/hardware) by extension 'python_setup_py'
+[3.699s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extensions ['ignore', 'ignore_ament_install']
+[3.701s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extension 'ignore'
+[3.702s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extension 'ignore_ament_install'
+[3.703s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extensions ['colcon_pkg']
+[3.704s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extension 'colcon_pkg'
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extensions ['colcon_meta']
+[3.705s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extension 'colcon_meta'
+[3.707s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extensions ['ros']
+[3.707s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extension 'ros'
+[3.709s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extensions ['cmake', 'python']
+[3.710s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extension 'cmake'
+[3.711s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extension 'python'
+[3.712s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extensions ['python_setup_py']
+[3.712s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/hypersonic_micro_bit/test) by extension 'python_setup_py'
+[3.715s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/install) by extensions ['ignore', 'ignore_ament_install']
+[3.716s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/install) by extension 'ignore'
+[3.717s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/install) ignored
+[3.719s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/log) by extensions ['ignore', 'ignore_ament_install']
+[3.721s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/log) by extension 'ignore'
+[3.722s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/log) ignored
+[3.724s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extensions ['ignore', 'ignore_ament_install']
+[3.725s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extension 'ignore'
+[3.726s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extension 'ignore_ament_install'
+[3.728s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extensions ['colcon_pkg']
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extension 'colcon_pkg'
+[3.729s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extensions ['colcon_meta']
+[3.730s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extension 'colcon_meta'
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extensions ['ros']
+[3.732s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extension 'ros'
+[3.734s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extensions ['cmake', 'python']
+[3.735s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extension 'cmake'
+[3.736s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extension 'python'
+[3.736s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extensions ['python_setup_py']
+[3.737s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice) by extension 'python_setup_py'
+[3.739s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extensions ['ignore', 'ignore_ament_install']
+[3.741s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extension 'ignore'
+[3.742s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extension 'ignore_ament_install'
+[3.743s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extensions ['colcon_pkg']
+[3.744s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extension 'colcon_pkg'
+[3.744s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extensions ['colcon_meta']
+[3.745s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extension 'colcon_meta'
+[3.746s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extensions ['ros']
+[3.747s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extension 'ros'
+[3.748s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extensions ['cmake', 'python']
+[3.749s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extension 'cmake'
+[3.750s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extension 'python'
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extensions ['python_setup_py']
+[3.751s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/include) by extension 'python_setup_py'
+[3.754s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extensions ['ignore', 'ignore_ament_install']
+[3.756s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extension 'ignore'
+[3.758s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extension 'ignore_ament_install'
+[3.759s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extensions ['colcon_pkg']
+[3.761s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extension 'colcon_pkg'
+[3.763s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extensions ['colcon_meta']
+[3.764s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extension 'colcon_meta'
+[3.766s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extensions ['ros']
+[3.768s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extension 'ros'
+[3.770s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extensions ['cmake', 'python']
+[3.772s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extension 'cmake'
+[3.773s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extension 'python'
+[3.775s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extensions ['python_setup_py']
+[3.777s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/lib) by extension 'python_setup_py'
+[3.780s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extensions ['ignore', 'ignore_ament_install']
+[3.782s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extension 'ignore'
+[3.784s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extension 'ignore_ament_install'
+[3.786s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extensions ['colcon_pkg']
+[3.787s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extension 'colcon_pkg'
+[3.789s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extensions ['colcon_meta']
+[3.791s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extension 'colcon_meta'
+[3.793s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extensions ['ros']
+[3.794s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extension 'ros'
+[3.797s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extensions ['cmake', 'python']
+[3.798s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extension 'cmake'
+[3.800s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extension 'python'
+[3.802s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extensions ['python_setup_py']
+[3.804s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src) by extension 'python_setup_py'
+[3.807s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extensions ['ignore', 'ignore_ament_install']
+[3.810s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extension 'ignore'
+[3.812s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extension 'ignore_ament_install'
+[3.814s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extensions ['colcon_pkg']
+[3.815s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extension 'colcon_pkg'
+[3.817s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extensions ['colcon_meta']
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extension 'colcon_meta'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extensions ['ros']
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extension 'ros'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extensions ['cmake', 'python']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extension 'cmake'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extension 'python'
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extensions ['python_setup_py']
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/actuators) by extension 'python_setup_py'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extensions ['ignore', 'ignore_ament_install']
+[3.838s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extension 'ignore'
+[3.840s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extension 'ignore_ament_install'
+[3.843s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extensions ['colcon_pkg']
+[3.844s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extension 'colcon_pkg'
+[3.846s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extensions ['colcon_meta']
+[3.848s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extension 'colcon_meta'
+[3.850s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extensions ['ros']
+[3.852s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extension 'ros'
+[3.854s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extensions ['cmake', 'python']
+[3.856s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extension 'cmake'
+[3.858s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extension 'python'
+[3.860s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extensions ['python_setup_py']
+[3.862s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/controller) by extension 'python_setup_py'
+[3.865s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extensions ['ignore', 'ignore_ament_install']
+[3.867s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extension 'ignore'
+[3.869s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extension 'ignore_ament_install'
+[3.871s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extensions ['colcon_pkg']
+[3.873s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extension 'colcon_pkg'
+[3.875s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extensions ['colcon_meta']
+[3.876s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extension 'colcon_meta'
+[3.878s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extensions ['ros']
+[3.880s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extension 'ros'
+[3.882s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extensions ['cmake', 'python']
+[3.884s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extension 'cmake'
+[3.885s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extension 'python'
+[3.887s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extensions ['python_setup_py']
+[3.889s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/src/sensors) by extension 'python_setup_py'
+[3.892s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extensions ['ignore', 'ignore_ament_install']
+[3.894s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extension 'ignore'
+[3.896s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extension 'ignore_ament_install'
+[3.898s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extensions ['colcon_pkg']
+[3.899s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extension 'colcon_pkg'
+[3.901s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extensions ['colcon_meta']
+[3.902s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extension 'colcon_meta'
+[3.904s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extensions ['ros']
+[3.906s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extension 'ros'
+[3.908s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extensions ['cmake', 'python']
+[3.910s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extension 'cmake'
+[3.912s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extension 'python'
+[3.913s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extensions ['python_setup_py']
+[3.915s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/min_sens_best_practice/test) by extension 'python_setup_py'
+[3.918s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extensions ['ignore', 'ignore_ament_install']
+[3.920s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extension 'ignore'
+[3.922s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extension 'ignore_ament_install'
+[3.924s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extensions ['colcon_pkg']
+[3.926s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extension 'colcon_pkg'
+[3.928s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extensions ['colcon_meta']
+[3.929s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extension 'colcon_meta'
+[3.931s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extensions ['ros']
+[3.933s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extension 'ros'
+[3.936s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extensions ['cmake', 'python']
+[3.937s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extension 'cmake'
+[3.939s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extension 'python'
+[3.941s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extensions ['python_setup_py']
+[3.943s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice) by extension 'python_setup_py'
+[3.946s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extensions ['ignore', 'ignore_ament_install']
+[3.949s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extension 'ignore'
+[3.951s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extension 'ignore_ament_install'
+[3.953s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extensions ['colcon_pkg']
+[3.954s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extension 'colcon_pkg'
+[3.956s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extensions ['colcon_meta']
+[3.958s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extension 'colcon_meta'
+[3.960s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extensions ['ros']
+[3.961s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extension 'ros'
+[3.964s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extensions ['cmake', 'python']
+[3.965s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extension 'cmake'
+[3.967s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extension 'python'
+[3.969s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extensions ['python_setup_py']
+[3.971s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/include) by extension 'python_setup_py'
+[3.974s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extensions ['ignore', 'ignore_ament_install']
+[3.975s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extension 'ignore'
+[3.976s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extension 'ignore_ament_install'
+[3.977s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extensions ['colcon_pkg']
+[3.978s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extension 'colcon_pkg'
+[3.979s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extensions ['colcon_meta']
+[3.979s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extension 'colcon_meta'
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extensions ['ros']
+[3.981s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extension 'ros'
+[3.983s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extensions ['cmake', 'python']
+[3.983s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extension 'cmake'
+[3.984s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extension 'python'
+[3.985s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extensions ['python_setup_py']
+[3.986s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/lib) by extension 'python_setup_py'
+[3.999s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extensions ['ignore', 'ignore_ament_install']
+[4.000s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extension 'ignore'
+[4.002s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extension 'ignore_ament_install'
+[4.003s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extensions ['colcon_pkg']
+[4.004s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extension 'colcon_pkg'
+[4.005s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extensions ['colcon_meta']
+[4.006s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extension 'colcon_meta'
+[4.007s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extensions ['ros']
+[4.008s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extension 'ros'
+[4.010s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extensions ['cmake', 'python']
+[4.020s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extension 'cmake'
+[4.021s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extension 'python'
+[4.022s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extensions ['python_setup_py']
+[4.023s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/src) by extension 'python_setup_py'
+[4.025s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extensions ['ignore', 'ignore_ament_install']
+[4.026s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extension 'ignore'
+[4.027s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extension 'ignore_ament_install'
+[4.028s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extensions ['colcon_pkg']
+[4.029s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extension 'colcon_pkg'
+[4.030s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extensions ['colcon_meta']
+[4.031s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extension 'colcon_meta'
+[4.032s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extensions ['ros']
+[4.033s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extension 'ros'
+[4.034s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extensions ['cmake', 'python']
+[4.035s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extension 'cmake'
+[4.036s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extension 'python'
+[4.037s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extensions ['python_setup_py']
+[4.038s] Level 1:colcon.colcon_core.package_identification:_identify(Smarte-Systemer---Rover/sensorer_arduino_best_practice/test) by extension 'python_setup_py'
+[4.042s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extensions ['ignore', 'ignore_ament_install']
+[4.044s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extension 'ignore'
+[4.046s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extension 'ignore_ament_install'
+[4.049s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extensions ['colcon_pkg']
+[4.050s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extension 'colcon_pkg'
+[4.052s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extensions ['colcon_meta']
+[4.053s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extension 'colcon_meta'
+[4.055s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extensions ['ros']
+[4.057s] Level 1:colcon.colcon_core.package_identification:_identify(arduino_bridge) by extension 'ros'
+[4.089s] DEBUG:colcon.colcon_core.package_identification:Package 'arduino_bridge' with type 'ros.ament_python' and name 'arduino_bridge'
+[4.091s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extensions ['ignore', 'ignore_ament_install']
+[4.092s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extension 'ignore'
+[4.093s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extension 'ignore_ament_install'
+[4.095s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extensions ['colcon_pkg']
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extension 'colcon_pkg'
+[4.096s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extensions ['colcon_meta']
+[4.097s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extension 'colcon_meta'
+[4.098s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extensions ['ros']
+[4.100s] Level 1:colcon.colcon_core.package_identification:_identify(autonomous_rover) by extension 'ros'
+[4.112s] DEBUG:colcon.colcon_core.package_identification:Package 'autonomous_rover' with type 'ros.ament_cmake' and name 'autonomous_rover'
+[4.115s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[4.118s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[4.121s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[4.124s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extensions ['ignore', 'ignore_ament_install']
+[4.127s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extension 'ignore'
+[4.130s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extension 'ignore_ament_install'
+[4.133s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extensions ['colcon_pkg']
+[4.135s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extension 'colcon_pkg'
+[4.137s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extensions ['colcon_meta']
+[4.140s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extension 'colcon_meta'
+[4.142s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extensions ['ros']
+[4.145s] Level 1:colcon.colcon_core.package_identification:_identify(carto_localization) by extension 'ros'
+[4.153s] DEBUG:colcon.colcon_core.package_identification:Package 'carto_localization' with type 'ros.catkin' and name 'carto_localization'
+[4.156s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[4.157s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[4.158s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[4.160s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['ignore', 'ignore_ament_install']
+[4.161s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ignore'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ignore_ament_install'
+[4.162s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['colcon_pkg']
+[4.163s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'colcon_pkg'
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['colcon_meta']
+[4.164s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'colcon_meta'
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extensions ['ros']
+[4.165s] Level 1:colcon.colcon_core.package_identification:_identify(ldlidar_stl_ros2) by extension 'ros'
+[4.173s] DEBUG:colcon.colcon_core.package_identification:Package 'ldlidar_stl_ros2' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[4.174s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[4.175s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[4.176s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[4.177s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extensions ['ignore', 'ignore_ament_install']
+[4.178s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extension 'ignore'
+[4.179s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extension 'ignore_ament_install'
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extensions ['colcon_pkg']
+[4.180s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extension 'colcon_pkg'
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extensions ['colcon_meta']
+[4.181s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extension 'colcon_meta'
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extensions ['ros']
+[4.182s] Level 1:colcon.colcon_core.package_identification:_identify(ros2-system-monitor) by extension 'ros'
+[4.190s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2-system-monitor' with type 'ros.ament_cmake' and name 'ros2_system_monitor'
+[4.191s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extensions ['ignore', 'ignore_ament_install']
+[4.192s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extension 'ignore'
+[4.193s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extension 'ignore_ament_install'
+[4.194s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extensions ['colcon_pkg']
+[4.194s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extension 'colcon_pkg'
+[4.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extensions ['colcon_meta']
+[4.195s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extension 'colcon_meta'
+[4.196s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extensions ['ros']
+[4.196s] Level 1:colcon.colcon_core.package_identification:_identify(ros2_temperature_tracker) by extension 'ros'
+[4.203s] DEBUG:colcon.colcon_core.package_identification:Package 'ros2_temperature_tracker' with type 'ros.ament_python' and name 'temperature_tracker'
+[4.205s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extensions ['ignore', 'ignore_ament_install']
+[4.206s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extension 'ignore'
+[4.206s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extension 'ignore_ament_install'
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extensions ['colcon_pkg']
+[4.207s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extension 'colcon_pkg'
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extensions ['colcon_meta']
+[4.208s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extension 'colcon_meta'
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extensions ['ros']
+[4.209s] Level 1:colcon.colcon_core.package_identification:_identify(rover_driver) by extension 'ros'
+[4.214s] DEBUG:colcon.colcon_core.package_identification:Package 'rover_driver' with type 'ros.ament_python' and name 'rover_driver'
+[4.216s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extensions ['ignore', 'ignore_ament_install']
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extension 'ignore'
+[4.217s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extension 'ignore_ament_install'
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extensions ['colcon_pkg']
+[4.218s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extension 'colcon_pkg'
+[4.219s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extensions ['colcon_meta']
+[4.219s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extension 'colcon_meta'
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extensions ['ros']
+[4.220s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_cpp) by extension 'ros'
+[4.227s] DEBUG:colcon.colcon_core.package_identification:Package 'sensehat_cpp' with type 'ros.ament_cmake' and name 'sensehat_cpp'
+[4.228s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extensions ['ignore', 'ignore_ament_install']
+[4.229s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extension 'ignore'
+[4.230s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extension 'ignore_ament_install'
+[4.231s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extensions ['colcon_pkg']
+[4.231s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extension 'colcon_pkg'
+[4.232s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extensions ['colcon_meta']
+[4.232s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extension 'colcon_meta'
+[4.232s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extensions ['ros']
+[4.233s] Level 1:colcon.colcon_core.package_identification:_identify(sensehat_ros) by extension 'ros'
+[4.242s] DEBUG:colcon.colcon_core.package_identification:Package 'sensehat_ros' with type 'ros.ament_python' and name 'sensehat_ros'
+[4.242s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[4.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[4.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[4.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[4.244s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.534s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'arduino_bridge' in 'arduino_bridge'
+[4.535s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'autonomous_rover' in 'autonomous_rover'
+[4.535s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'carto_localization' in 'carto_localization'
+[4.536s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ros2_system_monitor' in 'ros2-system-monitor'
+[4.536s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'rover_driver' in 'rover_driver'
+[4.536s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensehat_cpp' in 'sensehat_cpp'
+[4.537s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'sensehat_ros' in 'sensehat_ros'
+[4.537s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'temperature_tracker' in 'ros2_temperature_tracker'
+[4.541s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.553s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/creampi/ros2_ws/install/sensehat_cpp' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.556s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/creampi/ros2_ws/install/ldlidar_stl_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[4.559s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/creampi/ros2_ws/install/sensehat_cpp' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.560s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/creampi/ros2_ws/install/ldlidar_stl_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[4.573s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/creampi/ros2_ws/install
+[4.595s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 226 installed packages in /opt/ros/humble
+[4.610s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[5.164s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_args' from command line to 'None'
+[5.165s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target' from command line to 'None'
+[5.166s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[5.166s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[5.167s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[5.167s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[5.168s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[5.168s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[5.169s] Level 5:colcon.colcon_core.verb:set package 'ldlidar_stl_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[5.169s] DEBUG:colcon.colcon_core.verb:Building package 'ldlidar_stl_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2', 'merge_install': False, 'path': '/home/creampi/ros2_ws/src/ldlidar_stl_ros2', 'symlink_install': False, 'test_result_base': None}
+[5.171s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[5.190s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[5.201s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/creampi/ros2_ws/src/ldlidar_stl_ros2' with build type 'ament_cmake'
+[5.205s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/creampi/ros2_ws/src/ldlidar_stl_ros2'
+[5.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[5.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.384s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/src/build/ldlidar_stl_ros2 -- -j4 -l4
+[6.211s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/src/build/ldlidar_stl_ros2 -- -j4 -l4
+[6.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --install /home/creampi/ros2_ws/src/build/ldlidar_stl_ros2
+[6.428s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[6.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --install /home/creampi/ros2_ws/src/build/ldlidar_stl_ros2
+[6.463s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2' for CMake module files
+[6.472s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2' for CMake config files
+[6.476s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[6.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[6.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[6.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[6.501s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/lib'
+[6.503s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/bin'
+[6.503s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[6.506s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[6.508s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/bin'
+[6.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[6.520s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[6.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[6.534s] INFO:colcon.colcon_core.shell:Creating package script '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[6.543s] INFO:colcon.colcon_core.shell:Creating package script '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[6.551s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[6.557s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ldlidar_stl_ros2)
+[6.560s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2' for CMake module files
+[6.568s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2' for CMake config files
+[6.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('ldlidar_stl_ros2', 'cmake_prefix_path')
+[6.574s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.ps1'
+[6.578s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.dsv'
+[6.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/hook/cmake_prefix_path.sh'
+[6.589s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/lib'
+[6.590s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/bin'
+[6.591s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/lib/pkgconfig/ldlidar_stl_ros2.pc'
+[6.593s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/lib/python3.10/site-packages'
+[6.596s] Level 1:colcon.colcon_core.environment:checking '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/bin'
+[6.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.ps1'
+[6.607s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv'
+[6.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.sh'
+[6.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.bash'
+[6.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.zsh'
+[6.629s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2/share/colcon-core/packages/ldlidar_stl_ros2)
+[6.632s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.635s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.636s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.638s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.690s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.691s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.692s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.693s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.700s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[6.701s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/creampi/ros2_ws/src/install/local_setup.ps1'
+[6.716s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/creampi/ros2_ws/src/install/_local_setup_util_ps1.py'
+[6.734s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/creampi/ros2_ws/src/install/setup.ps1'
+[6.752s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/creampi/ros2_ws/src/install/local_setup.sh'
+[6.761s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/creampi/ros2_ws/src/install/_local_setup_util_sh.py'
+[6.769s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/creampi/ros2_ws/src/install/setup.sh'
+[6.791s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/creampi/ros2_ws/src/install/local_setup.bash'
+[6.799s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/creampi/ros2_ws/src/install/setup.bash'
+[6.819s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/creampi/ros2_ws/src/install/local_setup.zsh'
+[6.827s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/creampi/ros2_ws/src/install/setup.zsh'

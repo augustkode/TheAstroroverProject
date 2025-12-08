@@ -1,0 +1,6 @@
+Invoking command in '/home/creampi/ros2_ws/src/build/carto_localization': /usr/bin/cmake /home/creampi/ros2_ws/src/carto_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/src/install/carto_localization
+Invoked command in '/home/creampi/ros2_ws/src/build/carto_localization' returned '0': /usr/bin/cmake /home/creampi/ros2_ws/src/carto_localization -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/src/install/carto_localization
+Invoking command in '/home/creampi/ros2_ws/src/build/carto_localization': /usr/bin/cmake --build /home/creampi/ros2_ws/src/build/carto_localization -- -j4 -l4
+Invoked command in '/home/creampi/ros2_ws/src/build/carto_localization' returned '0': /usr/bin/cmake --build /home/creampi/ros2_ws/src/build/carto_localization -- -j4 -l4
+Invoking command in '/home/creampi/ros2_ws/src/build/carto_localization': /usr/bin/cmake --install /home/creampi/ros2_ws/src/build/carto_localization
+Invoked command in '/home/creampi/ros2_ws/src/build/carto_localization' returned '0': /usr/bin/cmake --install /home/creampi/ros2_ws/src/build/carto_localization

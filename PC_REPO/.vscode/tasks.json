@@ -1,0 +1,48 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "colcon build",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "source /opt/ros/humble/setup.bash && colcon build"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "source workspace",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "source install/setup.bash && echo 'Workspace sourced'"
+            ]
+        },
+        {
+            "label": "run rover teleop",
+            "type": "shell",
+            "command": "bash",
+            "args": [
+                "-c",
+                "source install/setup.bash && ros2 run teleop_twist_joy teleop_node --ros-args --params-file /home/sp/PC_REPO/src/rover_control/config/x56_teleop.yaml"
+            ],
+            "dependsOn": [
+                "colcon build"
+            ],
+            "group": "test",
+            "problemMatcher": [],
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}

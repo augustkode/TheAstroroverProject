@@ -1,0 +1,44 @@
+running egg_info
+creating ../build/sensehat_ros/sensehat_ros.egg-info
+writing ../build/sensehat_ros/sensehat_ros.egg-info/PKG-INFO
+writing dependency_links to ../build/sensehat_ros/sensehat_ros.egg-info/dependency_links.txt
+writing entry points to ../build/sensehat_ros/sensehat_ros.egg-info/entry_points.txt
+writing requirements to ../build/sensehat_ros/sensehat_ros.egg-info/requires.txt
+writing top-level names to ../build/sensehat_ros/sensehat_ros.egg-info/top_level.txt
+writing manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'
+reading manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/creampi/ros2_ws/src/build/sensehat_ros/build
+creating /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib
+creating /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros
+copying sensehat_ros/__init__.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros
+copying sensehat_ros/sensehat_display_handler.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros
+copying sensehat_ros/sensehat_publisher.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros
+running install
+running install_lib
+creating /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros
+copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/__init__.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros
+copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/sensehat_display_handler.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros
+copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/sensehat_publisher.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros
+byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/sensehat_display_handler.py to sensehat_display_handler.cpython-310.pyc
+byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/sensehat_publisher.py to sensehat_publisher.cpython-310.pyc
+running install_data
+creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index
+creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index
+creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index/packages
+copying resource/sensehat_ros -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index/packages
+copying package.xml -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros
+creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/launch
+copying launch/sensehat_launch.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/launch
+creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/config
+copying config/sensehat_config.yaml -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/config
+running install_egg_info
+Copying ../build/sensehat_ros/sensehat_ros.egg-info to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros-0.0.0-py3.10.egg-info
+running install_scripts
+Installing sensehat_node script to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/sensehat_ros
+Installing sensehat_publisher script to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/sensehat_ros
+writing list of installed files to '/home/creampi/ros2_ws/src/build/sensehat_ros/install.log'

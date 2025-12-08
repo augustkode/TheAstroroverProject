@@ -1,0 +1,6 @@
+Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/creampi/ros2_ws/src/autonomous_rover -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/autonomous_rover
+Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/creampi/ros2_ws/src/autonomous_rover -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/autonomous_rover
+Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/creampi/ros2_ws/build/autonomous_rover -- -j4 -l4
+Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/creampi/ros2_ws/build/autonomous_rover -- -j4 -l4
+Invoking command in '/home/creampi/ros2_ws/build/autonomous_rover': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/creampi/ros2_ws/build/autonomous_rover
+Invoked command in '/home/creampi/ros2_ws/build/autonomous_rover' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/creampi/ros2_ws/build/autonomous_rover

@@ -1,0 +1,42 @@
+running egg_info
+creating ../build/rover_driver/rover_driver.egg-info
+writing ../build/rover_driver/rover_driver.egg-info/PKG-INFO
+writing dependency_links to ../build/rover_driver/rover_driver.egg-info/dependency_links.txt
+writing entry points to ../build/rover_driver/rover_driver.egg-info/entry_points.txt
+writing requirements to ../build/rover_driver/rover_driver.egg-info/requires.txt
+writing top-level names to ../build/rover_driver/rover_driver.egg-info/top_level.txt
+writing manifest file '../build/rover_driver/rover_driver.egg-info/SOURCES.txt'
+reading manifest file '../build/rover_driver/rover_driver.egg-info/SOURCES.txt'
+writing manifest file '../build/rover_driver/rover_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/creampi/ros2_ws/src/build/rover_driver/build
+creating /home/creampi/ros2_ws/src/build/rover_driver/build/lib
+creating /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver
+copying rover_driver/__init__.py -> /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver
+copying rover_driver/motor_driver.py -> /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver
+copying rover_driver/test_publisher.py -> /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver
+running install
+running install_lib
+creating /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver
+copying /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver/__init__.py -> /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver
+copying /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver/motor_driver.py -> /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver
+copying /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver/test_publisher.py -> /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver
+byte-compiling /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver/motor_driver.py to motor_driver.cpython-310.pyc
+byte-compiling /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver/test_publisher.py to test_publisher.cpython-310.pyc
+running install_data
+creating /home/creampi/ros2_ws/src/install/rover_driver/share/ament_index
+creating /home/creampi/ros2_ws/src/install/rover_driver/share/ament_index/resource_index
+creating /home/creampi/ros2_ws/src/install/rover_driver/share/ament_index/resource_index/packages
+copying resource/rover_driver -> /home/creampi/ros2_ws/src/install/rover_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/creampi/ros2_ws/src/install/rover_driver/share/rover_driver
+creating /home/creampi/ros2_ws/src/install/rover_driver/share/rover_driver/launch
+copying launch/rover.launch.py -> /home/creampi/ros2_ws/src/install/rover_driver/share/rover_driver/launch
+running install_egg_info
+Copying ../build/rover_driver/rover_driver.egg-info to /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver-0.0.0-py3.10.egg-info
+running install_scripts
+Installing imu_publisher script to /home/creampi/ros2_ws/src/install/rover_driver/lib/rover_driver
+Installing motor_driver script to /home/creampi/ros2_ws/src/install/rover_driver/lib/rover_driver
+Installing test_publisher script to /home/creampi/ros2_ws/src/install/rover_driver/lib/rover_driver
+writing list of installed files to '/home/creampi/ros2_ws/src/build/rover_driver/install.log'

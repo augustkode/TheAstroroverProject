@@ -1,0 +1,4 @@
+RTIMULib
+sense-hat
+setuptools
+transforms3d

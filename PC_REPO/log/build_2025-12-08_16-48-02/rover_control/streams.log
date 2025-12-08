@@ -1,0 +1,17 @@
+[0.326s] Invoking command in '/home/sp/PC_REPO/build/rover_control': PYTHONPATH=/home/sp/PC_REPO/build/rover_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sp/PC_REPO/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sp/PC_REPO/build/rover_control/build --no-deps symlink_data
+[0.421s] running develop
+[0.474s] running egg_info
+[0.474s] writing rover_control.egg-info/PKG-INFO
+[0.474s] writing dependency_links to rover_control.egg-info/dependency_links.txt
+[0.474s] writing entry points to rover_control.egg-info/entry_points.txt
+[0.474s] writing requirements to rover_control.egg-info/requires.txt
+[0.474s] writing top-level names to rover_control.egg-info/top_level.txt
+[0.475s] reading manifest file 'rover_control.egg-info/SOURCES.txt'
+[0.475s] writing manifest file 'rover_control.egg-info/SOURCES.txt'
+[0.476s] running build_ext
+[0.476s] Creating /home/sp/PC_REPO/install/rover_control/lib/python3.10/site-packages/rover-control.egg-link (link to .)
+[0.476s] Installing motor_driver script to /home/sp/PC_REPO/install/rover_control/lib/rover_control
+[0.476s] 
+[0.476s] Installed /home/sp/PC_REPO/build/rover_control
+[0.476s] running symlink_data
+[0.491s] Invoked command in '/home/sp/PC_REPO/build/rover_control' returned '0': PYTHONPATH=/home/sp/PC_REPO/build/rover_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sp/PC_REPO/install/rover_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sp/PC_REPO/build/rover_control/build --no-deps symlink_data

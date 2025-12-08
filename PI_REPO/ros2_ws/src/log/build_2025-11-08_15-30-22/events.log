@@ -1,0 +1,656 @@
+[0.000000] (-) TimerEvent: {}
+[0.001791] (arduino_bridge) JobQueued: {'identifier': 'arduino_bridge', 'dependencies': OrderedDict()}
+[0.002277] (ldlidar_stl_ros2) JobQueued: {'identifier': 'ldlidar_stl_ros2', 'dependencies': OrderedDict()}
+[0.002465] (rover_driver) JobQueued: {'identifier': 'rover_driver', 'dependencies': OrderedDict()}
+[0.002736] (sensehat_cpp) JobQueued: {'identifier': 'sensehat_cpp', 'dependencies': OrderedDict()}
+[0.002924] (sensehat_ros) JobQueued: {'identifier': 'sensehat_ros', 'dependencies': OrderedDict()}
+[0.003017] (temperature_tracker) JobQueued: {'identifier': 'temperature_tracker', 'dependencies': OrderedDict()}
+[0.003096] (arduino_bridge) JobStarted: {'identifier': 'arduino_bridge'}
+[0.052561] (ldlidar_stl_ros2) JobStarted: {'identifier': 'ldlidar_stl_ros2'}
+[0.071386] (rover_driver) JobStarted: {'identifier': 'rover_driver'}
+[0.096964] (sensehat_cpp) JobStarted: {'identifier': 'sensehat_cpp'}
+[0.099232] (-) TimerEvent: {}
+[0.200623] (-) TimerEvent: {}
+[0.301345] (-) TimerEvent: {}
+[0.402067] (-) TimerEvent: {}
+[0.502730] (-) TimerEvent: {}
+[0.603414] (-) TimerEvent: {}
+[0.704041] (-) TimerEvent: {}
+[0.804691] (-) TimerEvent: {}
+[0.905345] (-) TimerEvent: {}
+[1.006033] (-) TimerEvent: {}
+[1.106679] (-) TimerEvent: {}
+[1.207504] (-) TimerEvent: {}
+[1.255510] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'cmake'}
+[1.257922] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/creampi/ros2_ws/src/ldlidar_stl_ros2', '-DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2'], 'cwd': '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'creampi'), ('SSH_CLIENT', '192.168.10.81 49130 22'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/creampi'), ('OLDPWD', '/home/creampi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/creampi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'creampi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('PWD', '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.81 49130 192.168.10.184 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble')]), 'shell': False}
+[1.307681] (-) TimerEvent: {}
+[1.408505] (-) TimerEvent: {}
+[1.509255] (-) TimerEvent: {}
+[1.610247] (-) TimerEvent: {}
+[1.711209] (-) TimerEvent: {}
+[1.811889] (-) TimerEvent: {}
+[1.912592] (-) TimerEvent: {}
+[2.013358] (-) TimerEvent: {}
+[2.114129] (-) TimerEvent: {}
+[2.214926] (-) TimerEvent: {}
+[2.315725] (-) TimerEvent: {}
+[2.416710] (-) TimerEvent: {}
+[2.499852] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.506421] (sensehat_cpp) JobProgress: {'identifier': 'sensehat_cpp', 'progress': 'cmake'}
+[2.508647] (sensehat_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/creampi/ros2_ws/src/sensehat_cpp', '-DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/src/install/sensehat_cpp'], 'cwd': '/home/creampi/ros2_ws/src/build/sensehat_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'creampi'), ('SSH_CLIENT', '192.168.10.81 49130 22'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/creampi'), ('OLDPWD', '/home/creampi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/creampi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'creampi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('PWD', '/home/creampi/ros2_ws/src/build/sensehat_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.81 49130 192.168.10.184 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble')]), 'shell': False}
+[2.516830] (-) TimerEvent: {}
+[2.617646] (-) TimerEvent: {}
+[2.718636] (-) TimerEvent: {}
+[2.819527] (-) TimerEvent: {}
+[2.836907] (sensehat_cpp) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.919790] (-) TimerEvent: {}
+[3.021032] (-) TimerEvent: {}
+[3.122651] (-) TimerEvent: {}
+[3.211435] (sensehat_cpp) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.214291] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[3.222921] (-) TimerEvent: {}
+[3.261897] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.262539] (sensehat_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[3.323141] (-) TimerEvent: {}
+[3.424334] (-) TimerEvent: {}
+[3.525340] (-) TimerEvent: {}
+[3.626265] (-) TimerEvent: {}
+[3.694418] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.697350] (sensehat_cpp) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.723174] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.724811] (sensehat_cpp) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.726474] (-) TimerEvent: {}
+[3.728031] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.729303] (sensehat_cpp) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.730440] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.733074] (sensehat_cpp) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.747855] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.749520] (sensehat_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.826749] (-) TimerEvent: {}
+[3.928572] (-) TimerEvent: {}
+[4.029652] (-) TimerEvent: {}
+[4.130587] (-) TimerEvent: {}
+[4.205290] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.213875] (sensehat_cpp) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[4.231238] (-) TimerEvent: {}
+[4.259117] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.260870] (sensehat_cpp) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[4.262117] (sensehat_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.265297] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[4.266452] (sensehat_cpp) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.270324] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[4.316185] (sensehat_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.317245] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[4.330961] (-) TimerEvent: {}
+[4.432276] (-) TimerEvent: {}
+[4.533634] (-) TimerEvent: {}
+[4.635121] (-) TimerEvent: {}
+[4.737423] (-) TimerEvent: {}
+[4.838974] (-) TimerEvent: {}
+[4.941764] (-) TimerEvent: {}
+[5.042707] (-) TimerEvent: {}
+[5.143708] (-) TimerEvent: {}
+[5.244541] (-) TimerEvent: {}
+[5.346026] (-) TimerEvent: {}
+[5.448372] (-) TimerEvent: {}
+[5.468105] (sensehat_cpp) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.497917] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[5.548699] (-) TimerEvent: {}
+[5.614233] (arduino_bridge) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/arduino_bridge', 'build', '--build-base', '/home/creampi/ros2_ws/src/build/arduino_bridge/build', 'install', '--record', '/home/creampi/ros2_ws/src/build/arduino_bridge/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/creampi/ros2_ws/src/arduino_bridge', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'creampi', 'SSH_CLIENT': '192.168.10.81 49130 22', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/creampi', 'OLDPWD': '/home/creampi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nb_NO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/creampi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'creampi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'PWD': '/home/creampi/ros2_ws/src/build/arduino_bridge', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.81 49130 192.168.10.184 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/creampi/ros2_ws/src/build/arduino_bridge/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/creampi/ros2_ws/install/sensehat_cpp'}, 'shell': False}
+[5.631631] (rover_driver) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/rover_driver', 'build', '--build-base', '/home/creampi/ros2_ws/src/build/rover_driver/build', 'install', '--record', '/home/creampi/ros2_ws/src/build/rover_driver/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/creampi/ros2_ws/src/rover_driver', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'creampi', 'SSH_CLIENT': '192.168.10.81 49130 22', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/creampi', 'OLDPWD': '/home/creampi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nb_NO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/creampi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'creampi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'PWD': '/home/creampi/ros2_ws/src/build/rover_driver', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.81 49130 192.168.10.184 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/creampi/ros2_ws/src/build/rover_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/creampi/ros2_ws/install/sensehat_cpp'}, 'shell': False}
+[5.648908] (-) TimerEvent: {}
+[5.749909] (-) TimerEvent: {}
+[5.850761] (-) TimerEvent: {}
+[5.951863] (-) TimerEvent: {}
+[6.053582] (-) TimerEvent: {}
+[6.154469] (-) TimerEvent: {}
+[6.255456] (-) TimerEvent: {}
+[6.350642] (sensehat_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.351324] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[6.355670] (-) TimerEvent: {}
+[6.456768] (-) TimerEvent: {}
+[6.558127] (-) TimerEvent: {}
+[6.659365] (-) TimerEvent: {}
+[6.760690] (-) TimerEvent: {}
+[6.768079] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.769041] (sensehat_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[6.822603] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.823387] (sensehat_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[6.860926] (-) TimerEvent: {}
+[6.905675] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.906448] (sensehat_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[6.961187] (-) TimerEvent: {}
+[7.013835] (sensehat_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.014964] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.048732] (arduino_bridge) StdoutLine: {'line': b'running egg_info\n'}
+[7.051243] (rover_driver) StdoutLine: {'line': b'running egg_info\n'}
+[7.052258] (arduino_bridge) StdoutLine: {'line': b'creating ../build/arduino_bridge/arduino_bridge.egg-info\n'}
+[7.053056] (arduino_bridge) StdoutLine: {'line': b'writing ../build/arduino_bridge/arduino_bridge.egg-info/PKG-INFO\n'}
+[7.054688] (arduino_bridge) StdoutLine: {'line': b'writing dependency_links to ../build/arduino_bridge/arduino_bridge.egg-info/dependency_links.txt\n'}
+[7.055566] (rover_driver) StdoutLine: {'line': b'creating ../build/rover_driver/rover_driver.egg-info\n'}
+[7.056277] (arduino_bridge) StdoutLine: {'line': b'writing entry points to ../build/arduino_bridge/arduino_bridge.egg-info/entry_points.txt\n'}
+[7.057135] (rover_driver) StdoutLine: {'line': b'writing ../build/rover_driver/rover_driver.egg-info/PKG-INFO\n'}
+[7.057862] (arduino_bridge) StdoutLine: {'line': b'writing requirements to ../build/arduino_bridge/arduino_bridge.egg-info/requires.txt\n'}
+[7.058377] (arduino_bridge) StdoutLine: {'line': b'writing top-level names to ../build/arduino_bridge/arduino_bridge.egg-info/top_level.txt\n'}
+[7.059545] (arduino_bridge) StdoutLine: {'line': b"writing manifest file '../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[7.060403] (rover_driver) StdoutLine: {'line': b'writing dependency_links to ../build/rover_driver/rover_driver.egg-info/dependency_links.txt\n'}
+[7.071323] (-) TimerEvent: {}
+[7.071903] (rover_driver) StdoutLine: {'line': b'writing entry points to ../build/rover_driver/rover_driver.egg-info/entry_points.txt\n'}
+[7.072506] (rover_driver) StdoutLine: {'line': b'writing requirements to ../build/rover_driver/rover_driver.egg-info/requires.txt\n'}
+[7.072943] (rover_driver) StdoutLine: {'line': b'writing top-level names to ../build/rover_driver/rover_driver.egg-info/top_level.txt\n'}
+[7.073690] (rover_driver) StdoutLine: {'line': b"writing manifest file '../build/rover_driver/rover_driver.egg-info/SOURCES.txt'\n"}
+[7.074247] (arduino_bridge) StdoutLine: {'line': b"reading manifest file '../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[7.074981] (arduino_bridge) StdoutLine: {'line': b"writing manifest file '../build/arduino_bridge/arduino_bridge.egg-info/SOURCES.txt'\n"}
+[7.075493] (rover_driver) StdoutLine: {'line': b"reading manifest file '../build/rover_driver/rover_driver.egg-info/SOURCES.txt'\n"}
+[7.076237] (arduino_bridge) StdoutLine: {'line': b'running build\n'}
+[7.077018] (arduino_bridge) StdoutLine: {'line': b'running build_py\n'}
+[7.077815] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/arduino_bridge/build\n'}
+[7.078550] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/arduino_bridge/build/lib\n'}
+[7.079577] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/arduino_bridge/build/lib/arduino_bridge\n'}
+[7.080026] (rover_driver) StdoutLine: {'line': b"writing manifest file '../build/rover_driver/rover_driver.egg-info/SOURCES.txt'\n"}
+[7.080711] (arduino_bridge) StdoutLine: {'line': b'copying arduino_bridge/__init__.py -> /home/creampi/ros2_ws/src/build/arduino_bridge/build/lib/arduino_bridge\n'}
+[7.091799] (rover_driver) StdoutLine: {'line': b'running build\n'}
+[7.092454] (rover_driver) StdoutLine: {'line': b'running build_py\n'}
+[7.093156] (arduino_bridge) StdoutLine: {'line': b'copying arduino_bridge/arduino_bridge_node.py -> /home/creampi/ros2_ws/src/build/arduino_bridge/build/lib/arduino_bridge\n'}
+[7.093602] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/rover_driver/build\n'}
+[7.094209] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/rover_driver/build/lib\n'}
+[7.094641] (arduino_bridge) StdoutLine: {'line': b'running install\n'}
+[7.095274] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver\n'}
+[7.095830] (rover_driver) StdoutLine: {'line': b'copying rover_driver/__init__.py -> /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver\n'}
+[7.096301] (rover_driver) StdoutLine: {'line': b'copying rover_driver/motor_driver.py -> /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver\n'}
+[7.096993] (rover_driver) StdoutLine: {'line': b'copying rover_driver/test_publisher.py -> /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver\n'}
+[7.097569] (rover_driver) StdoutLine: {'line': b'running install\n'}
+[7.098077] (rover_driver) StdoutLine: {'line': b'running install_lib\n'}
+[7.098878] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver\n'}
+[7.099620] (arduino_bridge) StdoutLine: {'line': b'running install_lib\n'}
+[7.100265] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge\n'}
+[7.100904] (arduino_bridge) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/arduino_bridge/build/lib/arduino_bridge/__init__.py -> /home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge\n'}
+[7.101542] (arduino_bridge) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/arduino_bridge/build/lib/arduino_bridge/arduino_bridge_node.py -> /home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge\n'}
+[7.116083] (rover_driver) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver/__init__.py -> /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver\n'}
+[7.116855] (arduino_bridge) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge/__init__.py to __init__.cpython-310.pyc\n'}
+[7.117723] (rover_driver) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver/motor_driver.py -> /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver\n'}
+[7.118279] (rover_driver) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/rover_driver/build/lib/rover_driver/test_publisher.py -> /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver\n'}
+[7.119000] (arduino_bridge) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge/arduino_bridge_node.py to arduino_bridge_node.cpython-310.pyc\n'}
+[7.119868] (rover_driver) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver/__init__.py to __init__.cpython-310.pyc\n'}
+[7.120514] (rover_driver) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver/motor_driver.py to motor_driver.cpython-310.pyc\n'}
+[7.120984] (arduino_bridge) StdoutLine: {'line': b'running install_data\n'}
+[7.121619] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/arduino_bridge/share/ament_index\n'}
+[7.122091] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/arduino_bridge/share/ament_index/resource_index\n'}
+[7.122561] (rover_driver) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver/test_publisher.py to test_publisher.cpython-310.pyc\n'}
+[7.123096] (arduino_bridge) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/arduino_bridge/share/ament_index/resource_index/packages\n'}
+[7.123583] (arduino_bridge) StdoutLine: {'line': b'copying resource/arduino_bridge -> /home/creampi/ros2_ws/src/install/arduino_bridge/share/ament_index/resource_index/packages\n'}
+[7.124041] (rover_driver) StdoutLine: {'line': b'running install_data\n'}
+[7.124504] (arduino_bridge) StdoutLine: {'line': b'copying package.xml -> /home/creampi/ros2_ws/src/install/arduino_bridge/share/arduino_bridge\n'}
+[7.125013] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/rover_driver/share/ament_index\n'}
+[7.125410] (arduino_bridge) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.125898] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/rover_driver/share/ament_index/resource_index\n'}
+[7.126323] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/rover_driver/share/ament_index/resource_index/packages\n'}
+[7.126708] (rover_driver) StdoutLine: {'line': b'copying resource/rover_driver -> /home/creampi/ros2_ws/src/install/rover_driver/share/ament_index/resource_index/packages\n'}
+[7.127336] (rover_driver) StdoutLine: {'line': b'copying package.xml -> /home/creampi/ros2_ws/src/install/rover_driver/share/rover_driver\n'}
+[7.127765] (rover_driver) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/rover_driver/share/rover_driver/launch\n'}
+[7.128164] (rover_driver) StdoutLine: {'line': b'copying launch/rover.launch.py -> /home/creampi/ros2_ws/src/install/rover_driver/share/rover_driver/launch\n'}
+[7.128602] (rover_driver) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.129405] (arduino_bridge) StdoutLine: {'line': b'Copying ../build/arduino_bridge/arduino_bridge.egg-info to /home/creampi/ros2_ws/src/install/arduino_bridge/lib/python3.10/site-packages/arduino_bridge-0.0.0-py3.10.egg-info\n'}
+[7.130036] (rover_driver) StdoutLine: {'line': b'Copying ../build/rover_driver/rover_driver.egg-info to /home/creampi/ros2_ws/src/install/rover_driver/lib/python3.10/site-packages/rover_driver-0.0.0-py3.10.egg-info\n'}
+[7.130679] (arduino_bridge) StdoutLine: {'line': b'running install_scripts\n'}
+[7.131398] (rover_driver) StdoutLine: {'line': b'running install_scripts\n'}
+[7.171560] (-) TimerEvent: {}
+[7.172655] (sensehat_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.188781] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.232915] (rover_driver) StdoutLine: {'line': b'Installing imu_publisher script to /home/creampi/ros2_ws/src/install/rover_driver/lib/rover_driver\n'}
+[7.235406] (arduino_bridge) StdoutLine: {'line': b'Installing arduino_bridge_node script to /home/creampi/ros2_ws/src/install/arduino_bridge/lib/arduino_bridge\n'}
+[7.236480] (arduino_bridge) StdoutLine: {'line': b"writing list of installed files to '/home/creampi/ros2_ws/src/build/arduino_bridge/install.log'\n"}
+[7.271902] (-) TimerEvent: {}
+[7.286225] (rover_driver) StdoutLine: {'line': b'Installing motor_driver script to /home/creampi/ros2_ws/src/install/rover_driver/lib/rover_driver\n'}
+[7.287813] (rover_driver) StdoutLine: {'line': b'Installing test_publisher script to /home/creampi/ros2_ws/src/install/rover_driver/lib/rover_driver\n'}
+[7.290881] (rover_driver) StdoutLine: {'line': b"writing list of installed files to '/home/creampi/ros2_ws/src/build/rover_driver/install.log'\n"}
+[7.372187] (-) TimerEvent: {}
+[7.406419] (arduino_bridge) CommandEnded: {'returncode': 0}
+[7.472416] (-) TimerEvent: {}
+[7.573493] (-) TimerEvent: {}
+[7.623551] (arduino_bridge) JobEnded: {'identifier': 'arduino_bridge', 'rc': 0}
+[7.630407] (sensehat_ros) JobStarted: {'identifier': 'sensehat_ros'}
+[7.659932] (rover_driver) CommandEnded: {'returncode': 0}
+[7.674231] (-) TimerEvent: {}
+[7.694207] (rover_driver) JobEnded: {'identifier': 'rover_driver', 'rc': 0}
+[7.700750] (temperature_tracker) JobStarted: {'identifier': 'temperature_tracker'}
+[7.774424] (-) TimerEvent: {}
+[7.864896] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.865755] (sensehat_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.874603] (-) TimerEvent: {}
+[7.895003] (sensehat_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.895788] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.974867] (-) TimerEvent: {}
+[8.075824] (-) TimerEvent: {}
+[8.176548] (-) TimerEvent: {}
+[8.279305] (-) TimerEvent: {}
+[8.380193] (-) TimerEvent: {}
+[8.452076] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.452853] (sensehat_cpp) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.480344] (-) TimerEvent: {}
+[8.581854] (-) TimerEvent: {}
+[8.638385] (sensehat_cpp) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.639204] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.682014] (-) TimerEvent: {}
+[8.783616] (-) TimerEvent: {}
+[8.885459] (-) TimerEvent: {}
+[8.936429] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.938210] (sensehat_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.985735] (-) TimerEvent: {}
+[9.048637] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.049359] (sensehat_cpp) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[9.086045] (-) TimerEvent: {}
+[9.187983] (-) TimerEvent: {}
+[9.289489] (-) TimerEvent: {}
+[9.390775] (-) TimerEvent: {}
+[9.459472] (sensehat_cpp) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.461784] (sensehat_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.466153] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.468413] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.490968] (-) TimerEvent: {}
+[9.591780] (-) TimerEvent: {}
+[9.693299] (-) TimerEvent: {}
+[9.794880] (-) TimerEvent: {}
+[9.836544] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.837687] (sensehat_cpp) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.841475] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.842413] (sensehat_cpp) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.895029] (-) TimerEvent: {}
+[9.995719] (-) TimerEvent: {}
+[10.096481] (-) TimerEvent: {}
+[10.197235] (-) TimerEvent: {}
+[10.205146] (sensehat_cpp) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.205890] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[10.297423] (-) TimerEvent: {}
+[10.398250] (-) TimerEvent: {}
+[10.417689] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[10.498554] (-) TimerEvent: {}
+[10.600745] (-) TimerEvent: {}
+[10.705774] (-) TimerEvent: {}
+[10.807023] (-) TimerEvent: {}
+[10.885622] (sensehat_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[10.907237] (-) TimerEvent: {}
+[10.970174] (sensehat_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[10.991934] (sensehat_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/creampi/ros2_ws/src/build/sensehat_cpp\n'}
+[11.007545] (-) TimerEvent: {}
+[11.051431] (sensehat_cpp) CommandEnded: {'returncode': 0}
+[11.053366] (sensehat_cpp) JobProgress: {'identifier': 'sensehat_cpp', 'progress': 'build'}
+[11.053963] (sensehat_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/creampi/ros2_ws/src/build/sensehat_cpp', '--', '-j4', '-l4'], 'cwd': '/home/creampi/ros2_ws/src/build/sensehat_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'creampi'), ('SSH_CLIENT', '192.168.10.81 49130 22'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/creampi'), ('OLDPWD', '/home/creampi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/creampi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'creampi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('PWD', '/home/creampi/ros2_ws/src/build/sensehat_cpp'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.81 49130 192.168.10.184 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble')]), 'shell': False}
+[11.107823] (-) TimerEvent: {}
+[11.147046] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[11.207995] (-) TimerEvent: {}
+[11.221701] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[11.224349] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/creampi/ros2_ws/src/ldlidar_stl_ros2/include;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/core;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/dataprocess;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/filter;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/logger;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/networkcom;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/serialcom\n'}
+[11.225123] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[11.294960] (sensehat_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/sensehat_node.dir/src/sensehat_node.cpp.o\x1b[0m\n'}
+[11.295845] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[11.296449] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[11.307889] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[11.308432] (-) TimerEvent: {}
+[11.329089] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[11.341635] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[11.407138] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[11.407982] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[11.408565] (-) TimerEvent: {}
+[11.420543] (ldlidar_stl_ros2) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[11.432963] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.508797] (-) TimerEvent: {}
+[11.516196] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Generating done\n'}
+[11.539129] (ldlidar_stl_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/creampi/ros2_ws/src/build/ldlidar_stl_ros2\n'}
+[11.586295] (ldlidar_stl_ros2) CommandEnded: {'returncode': 0}
+[11.594930] (ldlidar_stl_ros2) JobProgress: {'identifier': 'ldlidar_stl_ros2', 'progress': 'build'}
+[11.595106] (ldlidar_stl_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2', '--', '-j4', '-l4'], 'cwd': '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'creampi'), ('SSH_CLIENT', '192.168.10.81 49130 22'), ('LC_TIME', 'nb_NO.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/creampi'), ('OLDPWD', '/home/creampi/ros2_ws'), ('SSH_TTY', '/dev/pts/0'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'nb_NO.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/creampi/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'creampi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '1'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'nb_NO.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LC_TELEPHONE', 'nb_NO.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'nb_NO.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'nb_NO.UTF-8'), ('LC_IDENTIFICATION', 'nb_NO.UTF-8'), ('PWD', '/home/creampi/ros2_ws/src/build/ldlidar_stl_ros2'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.10.81 49130 192.168.10.184 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'nb_NO.UTF-8'), ('LC_PAPER', 'nb_NO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble')]), 'shell': False}
+[11.609008] (-) TimerEvent: {}
+[11.710571] (-) TimerEvent: {}
+[11.812261] (-) TimerEvent: {}
+[11.855747] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/src/demo.cpp.o\x1b[0m\n'}
+[11.871266] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/core/ldlidar_driver.cpp.o\x1b[0m\n'}
+[11.884370] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/dataprocess/lipkg.cpp.o\x1b[0m\n'}
+[11.907019] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/filter/tofbf.cpp.o\x1b[0m\n'}
+[11.912470] (-) TimerEvent: {}
+[12.014826] (-) TimerEvent: {}
+[12.116477] (-) TimerEvent: {}
+[12.218025] (-) TimerEvent: {}
+[12.319673] (-) TimerEvent: {}
+[12.421386] (-) TimerEvent: {}
+[12.522951] (-) TimerEvent: {}
+[12.624744] (-) TimerEvent: {}
+[12.726416] (-) TimerEvent: {}
+[12.827963] (-) TimerEvent: {}
+[12.929154] (sensehat_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/sensehat_ros', 'build', '--build-base', '/home/creampi/ros2_ws/src/build/sensehat_ros/build', 'install', '--record', '/home/creampi/ros2_ws/src/build/sensehat_ros/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/creampi/ros2_ws/src/sensehat_ros', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'creampi', 'SSH_CLIENT': '192.168.10.81 49130 22', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/creampi', 'OLDPWD': '/home/creampi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nb_NO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/creampi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'creampi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'PWD': '/home/creampi/ros2_ws/src/build/sensehat_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.81 49130 192.168.10.184 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/creampi/ros2_ws/src/build/sensehat_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/creampi/ros2_ws/install/sensehat_cpp'}, 'shell': False}
+[12.931751] (-) TimerEvent: {}
+[13.033102] (-) TimerEvent: {}
+[13.135086] (-) TimerEvent: {}
+[13.236526] (-) TimerEvent: {}
+[13.338182] (-) TimerEvent: {}
+[13.439993] (-) TimerEvent: {}
+[13.541881] (-) TimerEvent: {}
+[13.643267] (-) TimerEvent: {}
+[13.744859] (-) TimerEvent: {}
+[13.847074] (-) TimerEvent: {}
+[13.871145] (temperature_tracker) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/temperature_tracker', 'build', '--build-base', '/home/creampi/ros2_ws/src/build/temperature_tracker/build', 'install', '--record', '/home/creampi/ros2_ws/src/build/temperature_tracker/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/creampi/ros2_ws/src/ros2_temperature_tracker', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'creampi', 'SSH_CLIENT': '192.168.10.81 49130 22', 'LC_TIME': 'nb_NO.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'pam', 'HOME': '/home/creampi', 'OLDPWD': '/home/creampi/ros2_ws', 'SSH_TTY': '/dev/pts/0', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'nb_NO.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLCON_PREFIX_PATH': '/home/creampi/ros2_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'creampi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/creampi/.local/bin:/home/creampi/ros2_ws/install/arduino_bridge/bin:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'nb_NO.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'C.UTF-8', 'LC_TELEPHONE': 'nb_NO.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/sensehat_cpp:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'nb_NO.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'nb_NO.UTF-8', 'LC_IDENTIFICATION': 'nb_NO.UTF-8', 'PWD': '/home/creampi/ros2_ws/src/build/temperature_tracker', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.10.81 49130 192.168.10.184 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/creampi/ros2_ws/src/build/temperature_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/build/temperature_tracker:/home/creampi/ros2_ws/install/temperature_tracker/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/sensehat_ros/lib/python3.10/site-packages:/home/creampi/ros2_ws/install/arduino_bridge/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'nb_NO.UTF-8', 'LC_PAPER': 'nb_NO.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/creampi/ros2_ws/install/sensehat_cpp'}, 'shell': False}
+[13.947062] (-) TimerEvent: {}
+[14.048548] (-) TimerEvent: {}
+[14.150135] (-) TimerEvent: {}
+[14.251885] (-) TimerEvent: {}
+[14.353292] (-) TimerEvent: {}
+[14.454485] (-) TimerEvent: {}
+[14.555706] (-) TimerEvent: {}
+[14.657460] (-) TimerEvent: {}
+[14.759747] (-) TimerEvent: {}
+[14.861597] (-) TimerEvent: {}
+[14.963385] (-) TimerEvent: {}
+[15.065650] (-) TimerEvent: {}
+[15.168401] (-) TimerEvent: {}
+[15.270089] (-) TimerEvent: {}
+[15.372215] (-) TimerEvent: {}
+[15.474255] (-) TimerEvent: {}
+[15.506114] (sensehat_ros) StdoutLine: {'line': b'running egg_info\n'}
+[15.519951] (sensehat_ros) StdoutLine: {'line': b'creating ../build/sensehat_ros/sensehat_ros.egg-info\n'}
+[15.522430] (sensehat_ros) StdoutLine: {'line': b'writing ../build/sensehat_ros/sensehat_ros.egg-info/PKG-INFO\n'}
+[15.525877] (sensehat_ros) StdoutLine: {'line': b'writing dependency_links to ../build/sensehat_ros/sensehat_ros.egg-info/dependency_links.txt\n'}
+[15.528197] (sensehat_ros) StdoutLine: {'line': b'writing entry points to ../build/sensehat_ros/sensehat_ros.egg-info/entry_points.txt\n'}
+[15.532432] (sensehat_ros) StdoutLine: {'line': b'writing requirements to ../build/sensehat_ros/sensehat_ros.egg-info/requires.txt\n'}
+[15.543482] (sensehat_ros) StdoutLine: {'line': b'writing top-level names to ../build/sensehat_ros/sensehat_ros.egg-info/top_level.txt\n'}
+[15.546617] (sensehat_ros) StdoutLine: {'line': b"writing manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'\n"}
+[15.574532] (-) TimerEvent: {}
+[15.577197] (sensehat_ros) StdoutLine: {'line': b"reading manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'\n"}
+[15.581086] (sensehat_ros) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[15.586251] (sensehat_ros) StdoutLine: {'line': b"writing manifest file '../build/sensehat_ros/sensehat_ros.egg-info/SOURCES.txt'\n"}
+[15.600587] (sensehat_ros) StdoutLine: {'line': b'running build\n'}
+[15.602490] (sensehat_ros) StdoutLine: {'line': b'running build_py\n'}
+[15.604777] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/sensehat_ros/build\n'}
+[15.606219] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib\n'}
+[15.607839] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros\n'}
+[15.609891] (sensehat_ros) StdoutLine: {'line': b'copying sensehat_ros/__init__.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros\n'}
+[15.612623] (sensehat_ros) StdoutLine: {'line': b'copying sensehat_ros/sensehat_display_handler.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros\n'}
+[15.615194] (sensehat_ros) StdoutLine: {'line': b'copying sensehat_ros/sensehat_publisher.py -> /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros\n'}
+[15.628959] (sensehat_ros) StdoutLine: {'line': b'running install\n'}
+[15.632438] (sensehat_ros) StdoutLine: {'line': b'running install_lib\n'}
+[15.638520] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros\n'}
+[15.640919] (sensehat_ros) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/__init__.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros\n'}
+[15.643917] (sensehat_ros) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/sensehat_display_handler.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros\n'}
+[15.647591] (sensehat_ros) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/sensehat_ros/build/lib/sensehat_ros/sensehat_publisher.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros\n'}
+[15.664348] (sensehat_ros) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/__init__.py to __init__.cpython-310.pyc\n'}
+[15.668089] (sensehat_ros) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/sensehat_display_handler.py to sensehat_display_handler.cpython-310.pyc\n'}
+[15.671414] (sensehat_ros) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros/sensehat_publisher.py to sensehat_publisher.cpython-310.pyc\n'}
+[15.674943] (-) TimerEvent: {}
+[15.699298] (sensehat_ros) StdoutLine: {'line': b'running install_data\n'}
+[15.701105] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index\n'}
+[15.702155] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index\n'}
+[15.703118] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index/packages\n'}
+[15.704433] (sensehat_ros) StdoutLine: {'line': b'copying resource/sensehat_ros -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/ament_index/resource_index/packages\n'}
+[15.705907] (sensehat_ros) StdoutLine: {'line': b'copying package.xml -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros\n'}
+[15.706877] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/launch\n'}
+[15.707913] (sensehat_ros) StdoutLine: {'line': b'copying launch/sensehat_launch.py -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/launch\n'}
+[15.723364] (sensehat_ros) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/config\n'}
+[15.724826] (sensehat_ros) StdoutLine: {'line': b'copying config/sensehat_config.yaml -> /home/creampi/ros2_ws/src/install/sensehat_ros/share/sensehat_ros/config\n'}
+[15.732080] (sensehat_ros) StdoutLine: {'line': b'running install_egg_info\n'}
+[15.753780] (sensehat_ros) StdoutLine: {'line': b'Copying ../build/sensehat_ros/sensehat_ros.egg-info to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/python3.10/site-packages/sensehat_ros-0.0.0-py3.10.egg-info\n'}
+[15.767309] (sensehat_ros) StdoutLine: {'line': b'running install_scripts\n'}
+[15.775048] (-) TimerEvent: {}
+[15.877006] (-) TimerEvent: {}
+[15.979182] (-) TimerEvent: {}
+[16.008994] (sensehat_ros) StdoutLine: {'line': b'Installing sensehat_node script to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/sensehat_ros\n'}
+[16.010213] (sensehat_ros) StdoutLine: {'line': b'Installing sensehat_publisher script to /home/creampi/ros2_ws/src/install/sensehat_ros/lib/sensehat_ros\n'}
+[16.023538] (sensehat_ros) StdoutLine: {'line': b"writing list of installed files to '/home/creampi/ros2_ws/src/build/sensehat_ros/install.log'\n"}
+[16.079431] (-) TimerEvent: {}
+[16.180830] (-) TimerEvent: {}
+[16.282619] (-) TimerEvent: {}
+[16.385065] (-) TimerEvent: {}
+[16.439227] (sensehat_ros) CommandEnded: {'returncode': 0}
+[16.485385] (-) TimerEvent: {}
+[16.543289] (sensehat_ros) JobEnded: {'identifier': 'sensehat_ros', 'rc': 0}
+[16.585756] (-) TimerEvent: {}
+[16.687218] (-) TimerEvent: {}
+[16.789156] (-) TimerEvent: {}
+[16.891064] (-) TimerEvent: {}
+[16.993103] (-) TimerEvent: {}
+[17.095209] (-) TimerEvent: {}
+[17.109966] (temperature_tracker) StdoutLine: {'line': b'running egg_info\n'}
+[17.116679] (temperature_tracker) StdoutLine: {'line': b'creating ../build/temperature_tracker/temperature_tracker.egg-info\n'}
+[17.120228] (temperature_tracker) StdoutLine: {'line': b'writing ../build/temperature_tracker/temperature_tracker.egg-info/PKG-INFO\n'}
+[17.124226] (temperature_tracker) StdoutLine: {'line': b'writing dependency_links to ../build/temperature_tracker/temperature_tracker.egg-info/dependency_links.txt\n'}
+[17.127736] (temperature_tracker) StdoutLine: {'line': b'writing entry points to ../build/temperature_tracker/temperature_tracker.egg-info/entry_points.txt\n'}
+[17.130898] (temperature_tracker) StdoutLine: {'line': b'writing requirements to ../build/temperature_tracker/temperature_tracker.egg-info/requires.txt\n'}
+[17.133688] (temperature_tracker) StdoutLine: {'line': b'writing top-level names to ../build/temperature_tracker/temperature_tracker.egg-info/top_level.txt\n'}
+[17.138139] (temperature_tracker) StdoutLine: {'line': b"writing manifest file '../build/temperature_tracker/temperature_tracker.egg-info/SOURCES.txt'\n"}
+[17.160716] (temperature_tracker) StdoutLine: {'line': b"reading manifest file '../build/temperature_tracker/temperature_tracker.egg-info/SOURCES.txt'\n"}
+[17.169063] (temperature_tracker) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[17.175881] (temperature_tracker) StdoutLine: {'line': b"writing manifest file '../build/temperature_tracker/temperature_tracker.egg-info/SOURCES.txt'\n"}
+[17.180246] (temperature_tracker) StdoutLine: {'line': b'running build\n'}
+[17.182293] (temperature_tracker) StdoutLine: {'line': b'running build_py\n'}
+[17.187544] (temperature_tracker) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/temperature_tracker/build\n'}
+[17.195480] (-) TimerEvent: {}
+[17.197893] (temperature_tracker) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib\n'}
+[17.199942] (temperature_tracker) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker\n'}
+[17.215816] (temperature_tracker) StdoutLine: {'line': b'copying temperature_tracker/__init__.py -> /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker\n'}
+[17.219340] (temperature_tracker) StdoutLine: {'line': b'copying temperature_tracker/temperature_tracker.py -> /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker\n'}
+[17.224028] (temperature_tracker) StdoutLine: {'line': b'running install\n'}
+[17.227345] (temperature_tracker) StdoutLine: {'line': b'running install_lib\n'}
+[17.234693] (temperature_tracker) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker\n'}
+[17.238361] (temperature_tracker) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker/__init__.py -> /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker\n'}
+[17.242183] (temperature_tracker) StdoutLine: {'line': b'copying /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker/temperature_tracker.py -> /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker\n'}
+[17.250294] (temperature_tracker) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker/__init__.py to __init__.cpython-310.pyc\n'}
+[17.255089] (temperature_tracker) StdoutLine: {'line': b'byte-compiling /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker/temperature_tracker.py to temperature_tracker.cpython-310.pyc\n'}
+[17.262506] (temperature_tracker) StdoutLine: {'line': b'running install_data\n'}
+[17.265152] (temperature_tracker) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/temperature_tracker/share/ament_index\n'}
+[17.267561] (temperature_tracker) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/temperature_tracker/share/ament_index/resource_index\n'}
+[17.269973] (temperature_tracker) StdoutLine: {'line': b'creating /home/creampi/ros2_ws/src/install/temperature_tracker/share/ament_index/resource_index/packages\n'}
+[17.274089] (temperature_tracker) StdoutLine: {'line': b'copying resource/temperature_tracker -> /home/creampi/ros2_ws/src/install/temperature_tracker/share/ament_index/resource_index/packages\n'}
+[17.296750] (-) TimerEvent: {}
+[17.303932] (temperature_tracker) StdoutLine: {'line': b'copying package.xml -> /home/creampi/ros2_ws/src/install/temperature_tracker/share/temperature_tracker\n'}
+[17.312448] (temperature_tracker) StdoutLine: {'line': b'running install_egg_info\n'}
+[17.335481] (temperature_tracker) StdoutLine: {'line': b'Copying ../build/temperature_tracker/temperature_tracker.egg-info to /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker-0.1.0-py3.10.egg-info\n'}
+[17.383324] (temperature_tracker) StdoutLine: {'line': b'running install_scripts\n'}
+[17.397025] (-) TimerEvent: {}
+[17.499509] (-) TimerEvent: {}
+[17.530392] (temperature_tracker) StdoutLine: {'line': b'Installing temperature_tracker script to /home/creampi/ros2_ws/src/install/temperature_tracker/lib/temperature_tracker\n'}
+[17.535522] (temperature_tracker) StdoutLine: {'line': b"writing list of installed files to '/home/creampi/ros2_ws/src/build/temperature_tracker/install.log'\n"}
+[17.599815] (-) TimerEvent: {}
+[17.702650] (-) TimerEvent: {}
+[17.755029] (temperature_tracker) CommandEnded: {'returncode': 0}
+[17.803007] (-) TimerEvent: {}
+[17.872381] (temperature_tracker) JobEnded: {'identifier': 'temperature_tracker', 'rc': 0}
+[17.903282] (-) TimerEvent: {}
+[18.004941] (-) TimerEvent: {}
+[18.107342] (-) TimerEvent: {}
+[18.209193] (-) TimerEvent: {}
+[18.310983] (-) TimerEvent: {}
+[18.413340] (-) TimerEvent: {}
+[18.515193] (-) TimerEvent: {}
+[18.569312] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/logger/log_module.cpp.o\x1b[0m\n'}
+[18.615415] (-) TimerEvent: {}
+[18.716447] (-) TimerEvent: {}
+[18.817573] (-) TimerEvent: {}
+[18.919631] (-) TimerEvent: {}
+[19.021416] (-) TimerEvent: {}
+[19.123036] (-) TimerEvent: {}
+[19.224987] (-) TimerEvent: {}
+[19.326938] (-) TimerEvent: {}
+[19.428848] (-) TimerEvent: {}
+[19.531028] (-) TimerEvent: {}
+[19.633308] (-) TimerEvent: {}
+[19.736639] (-) TimerEvent: {}
+[19.839198] (-) TimerEvent: {}
+[19.941980] (-) TimerEvent: {}
+[20.044748] (-) TimerEvent: {}
+[20.146311] (-) TimerEvent: {}
+[20.247500] (-) TimerEvent: {}
+[20.348651] (-) TimerEvent: {}
+[20.449910] (-) TimerEvent: {}
+[20.551012] (-) TimerEvent: {}
+[20.653604] (-) TimerEvent: {}
+[20.755821] (-) TimerEvent: {}
+[20.858293] (-) TimerEvent: {}
+[20.960339] (-) TimerEvent: {}
+[21.008826] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/networkcom/network_socket_interface_linux.cpp.o\x1b[0m\n'}
+[21.060700] (-) TimerEvent: {}
+[21.079025] (ldlidar_stl_ros2) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/ldlidar_stl_ros2_node.dir/ldlidar_driver/src/serialcom/serial_interface_linux.cpp.o\x1b[0m\n'}
+[21.160965] (-) TimerEvent: {}
+[21.262924] (-) TimerEvent: {}
+[21.364526] (-) TimerEvent: {}
+[21.465438] (-) TimerEvent: {}
+[21.566250] (-) TimerEvent: {}
+[21.667169] (-) TimerEvent: {}
+[21.768090] (-) TimerEvent: {}
+[21.869509] (-) TimerEvent: {}
+[21.971019] (-) TimerEvent: {}
+[22.072587] (-) TimerEvent: {}
+[22.174345] (-) TimerEvent: {}
+[22.275983] (-) TimerEvent: {}
+[22.377978] (-) TimerEvent: {}
+[22.479941] (-) TimerEvent: {}
+[22.581889] (-) TimerEvent: {}
+[22.684044] (-) TimerEvent: {}
+[22.786071] (-) TimerEvent: {}
+[22.888115] (-) TimerEvent: {}
+[22.990276] (-) TimerEvent: {}
+[23.093033] (-) TimerEvent: {}
+[23.195105] (-) TimerEvent: {}
+[23.297353] (-) TimerEvent: {}
+[23.400232] (-) TimerEvent: {}
+[23.501665] (-) TimerEvent: {}
+[23.603032] (-) TimerEvent: {}
+[23.704457] (-) TimerEvent: {}
+[23.806866] (-) TimerEvent: {}
+[23.909053] (-) TimerEvent: {}
+[24.011021] (-) TimerEvent: {}
+[24.112721] (-) TimerEvent: {}
+[24.214761] (-) TimerEvent: {}
+[24.316564] (-) TimerEvent: {}
+[24.418279] (-) TimerEvent: {}
+[24.520167] (-) TimerEvent: {}
+[24.622350] (-) TimerEvent: {}
+[24.724110] (-) TimerEvent: {}
+[24.825864] (-) TimerEvent: {}
+[24.927717] (-) TimerEvent: {}
+[25.029680] (-) TimerEvent: {}
+[25.131356] (-) TimerEvent: {}
+[25.233094] (-) TimerEvent: {}
+[25.334709] (-) TimerEvent: {}
+[25.436106] (-) TimerEvent: {}
+[25.537038] (-) TimerEvent: {}
+[25.637890] (-) TimerEvent: {}
+[25.738729] (-) TimerEvent: {}
+[25.839708] (-) TimerEvent: {}
+[25.940556] (-) TimerEvent: {}
+[26.041428] (-) TimerEvent: {}
+[26.142270] (-) TimerEvent: {}
+[26.243210] (-) TimerEvent: {}
+[26.344131] (-) TimerEvent: {}
+[26.444962] (-) TimerEvent: {}
+[26.545844] (-) TimerEvent: {}
+[26.646674] (-) TimerEvent: {}
+[26.747597] (-) TimerEvent: {}
+[26.848494] (-) TimerEvent: {}
+[26.949419] (-) TimerEvent: {}
+[27.050270] (-) TimerEvent: {}
+[27.151109] (-) TimerEvent: {}
+[27.251938] (-) TimerEvent: {}
+[27.352845] (-) TimerEvent: {}
+[27.453767] (-) TimerEvent: {}
+[27.554941] (-) TimerEvent: {}
+[27.656416] (-) TimerEvent: {}
+[27.757951] (-) TimerEvent: {}
+[27.859435] (-) TimerEvent: {}
+[27.960782] (-) TimerEvent: {}
+[28.062028] (-) TimerEvent: {}
+[28.163253] (-) TimerEvent: {}
+[28.264364] (-) TimerEvent: {}
+[28.365516] (-) TimerEvent: {}
+[28.466725] (-) TimerEvent: {}
+[28.567907] (-) TimerEvent: {}
+[28.669132] (-) TimerEvent: {}
+[28.770298] (-) TimerEvent: {}
+[28.871804] (-) TimerEvent: {}
+[28.972990] (-) TimerEvent: {}
+[29.074156] (-) TimerEvent: {}
+[29.175350] (-) TimerEvent: {}
+[29.276507] (-) TimerEvent: {}
+[29.377754] (-) TimerEvent: {}
+[29.479052] (-) TimerEvent: {}
+[29.580182] (-) TimerEvent: {}
+[29.681370] (-) TimerEvent: {}
+[29.782600] (-) TimerEvent: {}
+[29.883857] (-) TimerEvent: {}
+[29.985075] (-) TimerEvent: {}
+[30.086256] (-) TimerEvent: {}
+[30.187463] (-) TimerEvent: {}
+[30.288638] (-) TimerEvent: {}
+[30.389824] (-) TimerEvent: {}
+[30.491048] (-) TimerEvent: {}
+[30.592191] (-) TimerEvent: {}
+[30.693401] (-) TimerEvent: {}
+[30.794570] (-) TimerEvent: {}
+[30.895764] (-) TimerEvent: {}
+[30.996978] (-) TimerEvent: {}
+[31.098141] (-) TimerEvent: {}
+[31.199319] (-) TimerEvent: {}
+[31.300485] (-) TimerEvent: {}
+[31.401666] (-) TimerEvent: {}
+[31.502864] (-) TimerEvent: {}
+[31.604055] (-) TimerEvent: {}
+[31.705205] (-) TimerEvent: {}
+[31.806385] (-) TimerEvent: {}
+[31.907750] (-) TimerEvent: {}
+[32.008920] (-) TimerEvent: {}
+[32.110105] (-) TimerEvent: {}
+[32.210948] (-) TimerEvent: {}
+[32.311782] (-) TimerEvent: {}
+[32.412861] (-) TimerEvent: {}
+[32.513890] (-) TimerEvent: {}
+[32.614826] (-) TimerEvent: {}
+[32.715732] (-) TimerEvent: {}
+[32.816919] (-) TimerEvent: {}
+[32.917910] (-) TimerEvent: {}
+[33.018991] (-) TimerEvent: {}
+[33.120412] (-) TimerEvent: {}
+[33.221254] (-) TimerEvent: {}
+[33.322167] (-) TimerEvent: {}
+[33.422995] (-) TimerEvent: {}
+[33.523771] (-) TimerEvent: {}
+[33.624616] (-) TimerEvent: {}
+[33.725432] (-) TimerEvent: {}
+[33.826261] (-) TimerEvent: {}
+[33.927143] (-) TimerEvent: {}
+[34.027981] (-) TimerEvent: {}
+[34.128818] (-) TimerEvent: {}
+[34.229690] (-) TimerEvent: {}
+[34.330533] (-) TimerEvent: {}
+[34.431544] (-) TimerEvent: {}
+[34.532419] (-) TimerEvent: {}
+[34.633259] (-) TimerEvent: {}
+[34.734140] (-) TimerEvent: {}
+[34.834973] (-) TimerEvent: {}
+[34.935780] (-) TimerEvent: {}
+[35.036613] (-) TimerEvent: {}
+[35.137449] (-) TimerEvent: {}
+[35.238328] (-) TimerEvent: {}
+[35.339132] (-) TimerEvent: {}
+[35.439919] (-) TimerEvent: {}
+[35.540752] (-) TimerEvent: {}
+[35.641527] (-) TimerEvent: {}
+[35.742370] (-) TimerEvent: {}
+[35.843267] (-) TimerEvent: {}
+[35.944108] (-) TimerEvent: {}
+[36.044870] (-) TimerEvent: {}
+[36.145745] (-) TimerEvent: {}
+[36.246638] (-) TimerEvent: {}
+[36.347498] (-) TimerEvent: {}
+[36.448341] (-) TimerEvent: {}
+[36.549101] (-) TimerEvent: {}
+[36.649957] (-) TimerEvent: {}
+[36.750779] (-) TimerEvent: {}
+[36.851619] (-) TimerEvent: {}
+[36.952429] (-) TimerEvent: {}
+[37.053252] (-) TimerEvent: {}
+[37.154036] (-) TimerEvent: {}
+[37.254914] (-) TimerEvent: {}
+[37.355757] (-) TimerEvent: {}
+[37.456638] (-) TimerEvent: {}
+[37.557592] (-) TimerEvent: {}
+[37.569842] (ldlidar_stl_ros2) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable ldlidar_stl_ros2_node\x1b[0m\n'}
+[37.657962] (-) TimerEvent: {}
+[37.759083] (-) TimerEvent: {}
+[37.8598                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     

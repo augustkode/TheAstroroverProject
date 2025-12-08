@@ -1,0 +1,5 @@
+[console_scripts]
+imu_publisher = sensehat_imu.imu_publisher:main
+motor_driver = rover_driver.motor_driver:main
+test_publisher = rover_driver.test_publisher:main
+

@@ -1,0 +1,38 @@
+[6.173s] Invoking command in '/home/creampi/ros2_ws/src/ros2_temperature_tracker': PYTHONPATH=/home/creampi/ros2_ws/src/build/temperature_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/temperature_tracker build --build-base /home/creampi/ros2_ws/src/build/temperature_tracker/build install --record /home/creampi/ros2_ws/src/build/temperature_tracker/install.log --single-version-externally-managed install_data
+[9.410s] running egg_info
+[9.417s] creating ../build/temperature_tracker/temperature_tracker.egg-info
+[9.420s] writing ../build/temperature_tracker/temperature_tracker.egg-info/PKG-INFO
+[9.424s] writing dependency_links to ../build/temperature_tracker/temperature_tracker.egg-info/dependency_links.txt
+[9.428s] writing entry points to ../build/temperature_tracker/temperature_tracker.egg-info/entry_points.txt
+[9.431s] writing requirements to ../build/temperature_tracker/temperature_tracker.egg-info/requires.txt
+[9.434s] writing top-level names to ../build/temperature_tracker/temperature_tracker.egg-info/top_level.txt
+[9.438s] writing manifest file '../build/temperature_tracker/temperature_tracker.egg-info/SOURCES.txt'
+[9.461s] reading manifest file '../build/temperature_tracker/temperature_tracker.egg-info/SOURCES.txt'
+[9.469s] adding license file 'LICENSE'
+[9.476s] writing manifest file '../build/temperature_tracker/temperature_tracker.egg-info/SOURCES.txt'
+[9.480s] running build
+[9.483s] running build_py
+[9.487s] creating /home/creampi/ros2_ws/src/build/temperature_tracker/build
+[9.498s] creating /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib
+[9.500s] creating /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker
+[9.516s] copying temperature_tracker/__init__.py -> /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker
+[9.519s] copying temperature_tracker/temperature_tracker.py -> /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker
+[9.524s] running install
+[9.527s] running install_lib
+[9.535s] creating /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker
+[9.538s] copying /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker/__init__.py -> /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker
+[9.542s] copying /home/creampi/ros2_ws/src/build/temperature_tracker/build/lib/temperature_tracker/temperature_tracker.py -> /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker
+[9.550s] byte-compiling /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker/__init__.py to __init__.cpython-310.pyc
+[9.555s] byte-compiling /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker/temperature_tracker.py to temperature_tracker.cpython-310.pyc
+[9.562s] running install_data
+[9.565s] creating /home/creampi/ros2_ws/src/install/temperature_tracker/share/ament_index
+[9.568s] creating /home/creampi/ros2_ws/src/install/temperature_tracker/share/ament_index/resource_index
+[9.570s] creating /home/creampi/ros2_ws/src/install/temperature_tracker/share/ament_index/resource_index/packages
+[9.588s] copying resource/temperature_tracker -> /home/creampi/ros2_ws/src/install/temperature_tracker/share/ament_index/resource_index/packages
+[9.604s] copying package.xml -> /home/creampi/ros2_ws/src/install/temperature_tracker/share/temperature_tracker
+[9.612s] running install_egg_info
+[9.635s] Copying ../build/temperature_tracker/temperature_tracker.egg-info to /home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages/temperature_tracker-0.1.0-py3.10.egg-info
+[9.683s] running install_scripts
+[9.830s] Installing temperature_tracker script to /home/creampi/ros2_ws/src/install/temperature_tracker/lib/temperature_tracker
+[9.835s] writing list of installed files to '/home/creampi/ros2_ws/src/build/temperature_tracker/install.log'
+[10.055s] Invoked command in '/home/creampi/ros2_ws/src/ros2_temperature_tracker' returned '0': PYTHONPATH=/home/creampi/ros2_ws/src/build/temperature_tracker/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/creampi/ros2_ws/src/install/temperature_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/temperature_tracker build --build-base /home/creampi/ros2_ws/src/build/temperature_tracker/build install --record /home/creampi/ros2_ws/src/build/temperature_tracker/install.log --single-version-externally-managed install_data

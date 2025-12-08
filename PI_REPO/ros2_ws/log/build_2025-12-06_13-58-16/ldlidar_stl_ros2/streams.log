@@ -1,0 +1,63 @@
+[1.797s] Invoking command in '/home/creampi/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake /home/creampi/ros2_ws/src/ldlidar_stl_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/ldlidar_stl_ros2
+[2.021s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.197s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.248s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[3.470s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.485s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.530s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.596s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.668s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.863s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.875s] -- Found rmw_fastrtps_cpp: 6.2.8 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.754s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[6.659s] -- Found sensor_msgs: 4.9.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[7.330s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[8.257s] -- Added test 'copyright' to check source files copyright and LICENSE
+[8.452s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[8.458s] -- Configured cppcheck include dirs: /home/creampi/ros2_ws/src/ldlidar_stl_ros2/include;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/core;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/dataprocess;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/filter;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/logger;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/networkcom;/home/creampi/ros2_ws/src/ldlidar_stl_ros2/ldlidar_driver/include/serialcom
+[8.463s] -- Configured cppcheck exclude dirs and/or files: 
+[8.771s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[8.772s] -- Configured cpplint exclude dirs and/or files: 
+[8.810s] -- Added test 'flake8' to check Python code syntax and style conventions
+[8.923s] -- Added test 'lint_cmake' to check CMake code style
+[8.948s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[9.190s] -- Added test 'uncrustify' to check C / C++ code style
+[9.194s] -- Configured uncrustify additional arguments: 
+[9.220s] -- Added test 'xmllint' to check XML markup files
+[9.248s] -- Configuring done
+[9.593s] -- Generating done
+[9.737s] -- Build files have been written to: /home/creampi/ros2_ws/build/ldlidar_stl_ros2
+[9.937s] Invoked command in '/home/creampi/ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake /home/creampi/ros2_ws/src/ldlidar_stl_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/creampi/ros2_ws/install/ldlidar_stl_ros2
+[9.953s] Invoking command in '/home/creampi/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/ldlidar_stl_ros2 -- -j4 -l4
+[10.808s] [35m[1mConsolidate compiler generated dependencies of target ldlidar_stl_ros2_node[0m
+[11.140s] [100%] Built target ldlidar_stl_ros2_node
+[16.402s] Invoked command in '/home/creampi/ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --build /home/creampi/ros2_ws/build/ldlidar_stl_ros2 -- -j4 -l4
+[16.408s] Invoking command in '/home/creampi/ros2_ws/build/ldlidar_stl_ros2': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --install /home/creampi/ros2_ws/build/ldlidar_stl_ros2
+[16.564s] -- Install configuration: ""
+[16.578s] -- Execute custom install script
+[16.578s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/lib/ldlidar_stl_ros2/ldlidar_stl_ros2_node
+[16.579s] -- Symlinking: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/__pycache__/ldlidar_uart.launch.cpython-310.pyc
+[16.724s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld06.launch.py
+[16.732s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ld19.launch.py
+[16.750s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/ldlidar_uart.launch.py
+[16.753s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/stl27l.launch.py
+[16.755s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld06.launch.py
+[16.756s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_ld19.launch.py
+[16.763s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//launch/viewer_stl27l.launch.py
+[16.765s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2//rviz2/ldlidar.rviz
+[16.766s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/package_run_dependencies/ldlidar_stl_ros2
+[16.768s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/parent_prefix_path/ldlidar_stl_ros2
+[16.784s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.sh
+[16.789s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/ament_prefix_path.dsv
+[16.791s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.sh
+[16.794s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/environment/path.dsv
+[16.797s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.bash
+[16.819s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.sh
+[16.821s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.zsh
+[16.823s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/local_setup.dsv
+[16.823s] -- Symlinking: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.dsv
+[16.931s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ament_index/resource_index/packages/ldlidar_stl_ros2
+[16.942s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config.cmake
+[16.943s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/cmake/ldlidar_stl_ros2Config-version.cmake
+[16.949s] -- Up-to-date symlink: /home/creampi/ros2_ws/install/ldlidar_stl_ros2/share/ldlidar_stl_ros2/package.xml
+[16.962s] Invoked command in '/home/creampi/ros2_ws/build/ldlidar_stl_ros2' returned '0': CMAKE_PREFIX_PATH=/home/creampi/ros2_ws/src/install/sensehat_cpp:/home/creampi/ros2_ws/src/install/ros2_system_monitor:/home/creampi/ros2_ws/src/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/src/install/temperature_tracker:/home/creampi/ros2_ws/src/install/sensehat_ros:/home/creampi/ros2_ws/src/install/rover_driver:/home/creampi/ros2_ws/src/install/arduino_bridge:/home/creampi/ros2_ws/install/temperature_tracker:/home/creampi/ros2_ws/install/sensehat_ros:/home/creampi/ros2_ws/install/rover_driver:/home/creampi/ros2_ws/install/arduino_bridge:/opt/ros/humble:/home/creampi/ros2_ws/src/install/carto_localization:/home/creampi/ros2_ws/src/install/autonomous_rover:/home/creampi/ros2_ws/install/ros2_system_monitor:/home/creampi/ros2_ws/install/ldlidar_stl_ros2:/home/creampi/ros2_ws/install/carto_localization:/home/creampi/ros2_ws/install/autonomous_rover /usr/bin/cmake --install /home/creampi/ros2_ws/build/ldlidar_stl_ros2

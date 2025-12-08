@@ -1,0 +1,28 @@
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:117:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ does not name a type
+  117 |     [01;31m[Kpub_[m[K->publish(msg);
+      |     [01;31m[K^~~~[m[K
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:[m[K In constructor ‘[01m[KAutopilot::Autopilot()[m[K’:
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:9:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+    9 |         [01;31m[Kpub_[m[K = this->create_publisher<geometry_msgs::msg::Twist>(
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:12:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ksub_[m[K’ was not declared in this scope
+   12 |         [01;31m[Ksub_[m[K = this->create_subscription<sensor_msgs::msg::LaserScan>(
+      |         [01;31m[K^~~~[m[K
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:15:9:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   15 |         [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |         [01;31m[K^~~~~~[m[K
+      |         [32m[Ktimer_t[m[K
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:[m[K In member function ‘[01m[Kvoid Autopilot::publish_cmd()[m[K’:
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:71:17:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kdiagonal_limit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   71 |     const float [01;35m[Kdiagonal_limit[m[K = 0.35;
+      |                 [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:[m[K At global scope:
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:119:5:[m[K [01;31m[Kerror: [m[Kspecializing member ‘[01m[Krclcpp::Subscription<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void>, sensor_msgs::msg::LaserScan_<std::allocator<void> >, sensor_msgs::msg::LaserScan_<std::allocator<void> >, rclcpp::message_memory_strategy::MessageMemoryStrategy<sensor_msgs::msg::LaserScan_<std::allocator<void> >, std::allocator<void> > >::SharedPtr[m[K’ requires ‘[01m[Ktemplate<>[m[K’ syntax
+  119 |     [01;31m[Krclcpp[m[K::Subscription<sensor_msgs::msg::LaserScan>::SharedPtr sub_;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/creampi/ros2_ws/src/autonomous_rover/src/autonomous_node.cpp:122:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  122 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/autonomous_node.dir/build.make:76: CMakeFiles/autonomous_node.dir/src/autonomous_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/autonomous_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
